@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Aryan B V
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aryan-b-v-78aa63246/)   
-  [![GitHub followers](https://img.shields.io/github/followers/AryanBV?style=for-the-badge&logo=github)](https://github.com/AryanBV?tab=followers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aryan-b-v-78aa63246/)
+[![GitHub followers](https://img.shields.io/github/followers/AryanBV?style=for-the-badge&logo=github)](https://github.com/AryanBV?tab=followers)
 
 ## 👨‍💻 About Me
 Final year B.Tech Student passionate about Full Stack Development and AI. MERN Stack specialist with a drive for creating innovative solutions.
