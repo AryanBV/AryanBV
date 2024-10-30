@@ -23,7 +23,17 @@ Final year B.Tech Student passionate about Full Stack Development and AI.
 - Database: ![MongoDB](https://img.shields.io/badge/MongoDB-black?style=flat-square&logo=mongodb) ![SQL](https://img.shields.io/badge/SQL-black?style=flat-square&logo=mysql)
 
 - Tools: ![VS Code](https://img.shields.io/badge/VS%20Code-black?style=flat-square&logo=visual-studio-code) ![Git](https://img.shields.io/badge/Git-black?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)
-  
+
+## 🛠️ Tech Stack
+
+- Frontend: ![React](https://img.shields.io/badge/React-black?style=flat-square&logo=react) ![HTML5](https://img.shields.io/badge/HTML5-black?style=flat-square&logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-black?style=flat-square&logo=css3) ![JavaScript](https://img.shields.io/badge/JavaScript-black?style=flat-square&logo=javascript)
+
+- Backend: ![Node.js](https://img.shields.io/badge/Node.js-black?style=flat-square&logo=node.js) ![Python](https://img.shields.io/badge/Python-black?style=flat-square&logo=python) ![Java](https://img.shields.io/badge/Java-black?style=flat-square&logo=openjdk)
+
+- Database: ![MongoDB](https://img.shields.io/badge/MongoDB-black?style=flat-square&logo=mongodb) ![SQL](https://img.shields.io/badge/SQL-black?style=flat-square&logo=mysql)
+
+- Tools: ![VS Code](https://img.shields.io/badge/VS%20Code-black?style=flat-square&logo=visual-studio-code) ![Git](https://img.shields.io/badge/Git-black?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)
+    
 ## 🎯 Featured Projects
 
 ### 🌤️ Weather Monitoring System
