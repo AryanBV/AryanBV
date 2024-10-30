@@ -1,6 +1,7 @@
 # 👋 Hi, I'm Aryan B V
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aryan-b-v-78aa63246/)
+
 [![GitHub followers](https://img.shields.io/github/followers/AryanBV?style=for-the-badge&logo=github)](https://github.com/AryanBV?tab=followers)
 
 ## 👨‍💻 About Me
@@ -38,10 +39,11 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 [![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
 
 ### GeeksForGeeks Achievement
-- 🏅 Coding Score: 67
-- 💻 Problems Solved: 35+
+- 🏅 Coding Score: 117
+- 💻 Problems Solved: 70+
 - ⭐ Institute Rank: Top Performer
-- 📊 Overall Coding Score: [GeeksforGeeks Profile](https://auth.geeksforgeeks.org/user/aryansalian5678)
+- 📊 Overall Coding Score: [GeeksforGeeks Profile](https://www.geeksforgeeks.org/user/aryanbv/)
+
 
 ## 📈 GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
@@ -49,7 +51,7 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 ## 🤝 Let's Connect
 - 💼 Open for collaborations and opportunities
 - 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/aryan-b-v-78aa63246/)
-- 🌱 Currently learning: Advanced AI/ML techniques
+- 🌱 Currently learning: Advanced AI/ML techniques, DSA, and Web Development
 
 ---
 ## 🎓 Education
@@ -65,5 +67,4 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 - 📊 Financial Markets Trading
 - 📖 Technology and Finance Literature
 - 📚 Self-Help Books for Personal Development
-
-⭐️ From [AryanBV](https://github.com/AryanBV)
+  
