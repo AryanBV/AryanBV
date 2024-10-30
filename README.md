@@ -38,7 +38,7 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 [![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
 
 ### GeeksForGeeks Achievement
-- 🏅 Coding Score: 117
+- 🏅 Coding Score: 120+
 - 💻 Problems Solved: 70+
 - ⭐ Institute Rank: Top Performer
 - 📊 Overall Coding Score: [GeeksforGeeks Profile](https://www.geeksforgeeks.org/user/aryanbv/)
