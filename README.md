@@ -33,8 +33,15 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 - Intuitive web interface
 
 ## 🏆 Coding Profiles
+
+### LeetCode Stats
 [![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
-[![GeeksforGeeks Stats](https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=aryansalian5678)](https://auth.geeksforgeeks.org/user/aryansalian5678)
+
+### GeeksForGeeks Achievement
+- 🏅 Coding Score: 67
+- 💻 Problems Solved: 35+
+- ⭐ Institute Rank: Top Performer
+- 📊 Overall Coding Score: [GeeksforGeeks Profile](https://auth.geeksforgeeks.org/user/aryansalian5678)
 
 ## 📈 GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
