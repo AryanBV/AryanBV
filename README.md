@@ -32,6 +32,10 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 - Complex business rules evaluation
 - Intuitive web interface
 
+## 🏆 Coding Profiles
+[![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
+[![GeeksforGeeks Stats](https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=aryansalian5678)](https://auth.geeksforgeeks.org/user/aryansalian5678)
+
 ## 📈 GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
 
@@ -41,4 +45,18 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 - 🌱 Currently learning: Advanced AI/ML techniques
 
 ---
+## 🎓 Education
+- B.Tech in Artificial Intelligence and Machine Learning | M S Ramaiah University of Applied Sciences
+- CGPA: 8.285 | 2021-present
+
+## 💼 Experience
+- Internship at Apna College
+  - Focus: Java DSA, Web Development
+  - Technologies: Java, DSA, HTML/CSS, JavaScript, Git
+
+## 📚 Additional Interests
+- 📊 Financial Markets Trading
+- 📖 Technology and Finance Literature
+- 📚 Self-Help Books for Personal Development
+
 ⭐️ From [AryanBV](https://github.com/AryanBV)
