@@ -1,11 +1,29 @@
 # 👋 Hi, I'm Aryan B V
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aryan-b-v-78aa63246/)
-[![GitHub followers](https://img.shields.io/github/followers/AryanBV?style=for-the-badge&logo=github)](https://github.com/AryanBV?tab=followers)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-brightgreen?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/aryanbv/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-green?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/profile/aryanbv)
 
 ## 👨‍💻 About Me
-Final year B.Tech Student passionate about Full Stack Development and AI. 
+Final year B.Tech Student passionate about AI and Full Stack Development.
 
+## 🔥 Coding Achievements
+## 📈 GitHub Stats
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
+
+### HackerRank
+- 🏆 Problem Solving (3 star) Badge
+- ✅ Software Engineer Certification
+- ✅ Java (Basic) Certification
+- ✅ Software Engineer Intern Certification
+- 🎯 Hackos Score: 218
+
+### GeeksForGeeks
+- 🏅 Coding Score: 120+
+- 💻 Problems Solved: 80+
+- 📊 Current POTD Streak: 28/1186 days
+- 🌟 Institute Rank: 55
+- 🔥 85+ submissions in current year
 
 ## 🛠️ Tech Stack
 
@@ -37,34 +55,22 @@ A dynamic Rule Engine with Abstract Syntax Tree (AST)
 - Complex business rules evaluation
 - Intuitive web interface
 
-## 🏆 Coding Profiles
-
-### LeetCode Stats
-[![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
-
-### GeeksForGeeks Achievement
-- 🏅 Coding Score: 120+
-- 💻 Problems Solved: 70+
-- ⭐ Institute Rank: Top Performer
-- 📊 Overall Coding Score: [GeeksforGeeks Profile](https://www.geeksforgeeks.org/user/aryanbv/)
-
-## 📈 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
-
-## 🤝 Let's Connect
-- 💼 Open for collaborations and opportunities
-- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/aryan-b-v-78aa63246/)
-- 🌱 Currently learning: Advanced AI/ML techniques, DSA, Web Development
-
----
 ## 🎓 Education
 - B.Tech in Artificial Intelligence and Machine Learning | M S Ramaiah University of Applied Sciences
 - CGPA: 8.285 | 2021-present
 
 ## 💼 Experience
-- Internship at Apna College
+- Internship at Apna College (January 2024)
   - Focus: Java DSA, Web Development
   - Technologies: Java, DSA, HTML/CSS, JavaScript, Git
+  - Applied theoretical concepts to real-world programming challenges
+  - Collaborated on team projects to enhance coding skills
+
+## 🤝 Let's Connect
+- 💼 Open for collaborations and opportunities
+- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/aryan-b-v-78aa63246/) | [Email](mailto:aryansalian5678@gmail.com)
+- 📱 Contact: +91-6361801455
+- 🌱 Currently learning: Advanced AI/ML techniques, DSA, Web Development
 
 ## 📚 Additional Interests
 - 📊 Financial Markets Trading
