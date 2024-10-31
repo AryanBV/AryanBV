@@ -11,12 +11,8 @@ Final year B.Tech Student passionate about AI and Full Stack Development.
 ## 📈 GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
 
-### HackerRank
-- 🏆 Problem Solving (3 star) Badge
-- ✅ Software Engineer Certification
-- ✅ Java (Basic) Certification
-- ✅ Software Engineer Intern Certification
-- 🎯 Hackos Score: 218
+### LeetCode Stats
+[![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
 
 ### GeeksForGeeks
 - 🏅 Coding Score: 120+
@@ -24,6 +20,13 @@ Final year B.Tech Student passionate about AI and Full Stack Development.
 - 📊 Current POTD Streak: 28/1186 days
 - 🌟 Institute Rank: 55
 - 🔥 85+ submissions in current year
+  
+### HackerRank
+- 🏆 Problem Solving (3 star) Badge
+- ✅ Software Engineer Certification
+- ✅ Java (Basic) Certification
+- ✅ Software Engineer Intern Certification
+- 🎯 Hackos Score: 218
 
 ## 🛠️ Tech Stack
 
