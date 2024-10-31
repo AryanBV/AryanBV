@@ -26,7 +26,7 @@ Final year B.Tech Student passionate about AI and Full Stack Development.
 - ✅ Software Engineer Certification
 - ✅ Java (Basic) Certification
 - ✅ Software Engineer Intern Certification
-- 🎯 Hackos Score: 218
+- 🎯 Hackos Score: 200+
 
 ## 🛠️ Tech Stack
 
