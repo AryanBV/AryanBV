@@ -5,7 +5,7 @@
 [![HackerRank](https://img.shields.io/badge/HackerRank-Profile-green?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/profile/aryanbv)
 
 ## 👨‍💻 About Me
-Final year B.Tech Student passionate about AI and Full Stack Development.
+In my final year, I am a B.Tech student passionate about AI and Full Stack Development.
 
 ## 🔥 Coding Achievements
 ## 📈 GitHub Stats
@@ -15,11 +15,11 @@ Final year B.Tech Student passionate about AI and Full Stack Development.
 [![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
 
 ### GeeksForGeeks
-- 🏅 Coding Score: 120+
-- 💻 Problems Solved: 80+
-- 📊 Current POTD Streak: 28/1186 days
-- 🌟 Institute Rank: 55
-- 🔥 85+ submissions in current year
+- 🏅 Coding Score: 200+
+- 💻 Problems Solved: 100+
+- 📊 Current POTD Streak: 30/1189 days
+- 🌟 Institute Rank: 37
+- 🔥 100+ submissions in current year
   
 ### HackerRank
 - 🏆 Problem Solving (3 star) Badge
@@ -53,7 +53,7 @@ A responsive and visually accurate clone of the Spotify web player
 - Pixel-perfect recreation
 
 ### ⚙️ Rule Engine
-A dynamic Rule Engine with Abstract Syntax Tree (AST)
+A dynamic Rule Engine with an Abstract Syntax Tree (AST)
 - Built with React and FastAPI
 - Complex business rules evaluation
 - Intuitive web interface
