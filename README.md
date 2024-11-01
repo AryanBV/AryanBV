@@ -18,7 +18,7 @@ In my final year, I am a B.Tech student passionate about AI and Full Stack Devel
 - 🏅 Coding Score: 200+
 - 💻 Problems Solved: 100+
 - 📊 Current POTD Streak: 30/1189 days
-- 🌟 Institute Rank: 37
+- 🌟 Institute Rank: 35
 - 🔥 100+ submissions in current year
   
 ### HackerRank
