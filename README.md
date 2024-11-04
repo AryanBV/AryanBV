@@ -15,11 +15,11 @@ In my final year, I am a B.Tech student passionate about AI and Full Stack Devel
 [![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
 
 ### GeeksForGeeks
-- 🏅 Coding Score: 200+
-- 💻 Problems Solved: 100+
-- 📊 Current POTD Streak: 30/1189 days
-- 🌟 Institute Rank: 35
-- 🔥 100+ submissions in current year
+- 🏅 Coding Score: 250+
+- 💻 Problems Solved: 125+
+- 📊 Current POTD Streak: 32/1190 days
+- 🌟 Institute Rank: 32
+- 🔥 130+ submissions in current year
   
 ### HackerRank
 - 🏆 Problem Solving (3 star) Badge
