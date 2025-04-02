@@ -1,81 +1,153 @@
-# 👋 Hi, I'm Aryan B V
+# <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="29px"> Hello World, I'm Aryan B V
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aryan-b-v-78aa63246/)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-brightgreen?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/aryanbv/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-green?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/profile/aryanbv)
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=0284C7&center=true&vCenter=true&width=600&lines=Software+Developer;AI+%26+Machine+Learning+Enthusiast;Full+Stack+Web+Developer;350%2B+DSA+Problems+Solved;Always+Learning+New+Technologies" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/aryan-b-v-78aa63246/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:aryansalian5678@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://auth.geeksforgeeks.org/user/aryanbv/"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></a>
+  <a href="https://leetcode.com/u/AryanBV/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"></a>
+</div>
+
+---
 
 ## 👨‍💻 About Me
-In my final year, I am a B.Tech student passionate about AI and Full Stack Development.
 
-## 🔥 Coding Achievements
-## 📈 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=dark)
+I'm a final year B.Tech student specializing in **Artificial Intelligence and Machine Learning** at M S Ramaiah University of Applied Sciences, Bangalore with a GPA of 8.3/10.
 
-### LeetCode Stats
-[![LeetCode Stats](https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/AryanBV)
+- 🔭 I'm currently working on integrating AI solutions with web applications
+- 🌱 I'm learning advanced Machine Learning algorithms and cloud technologies
+- 💻 I've solved **350+** coding problems on competitive platforms
+- 🏆 Built multiple production-ready applications, including a diabetes management system
+- 🚀 Passionate about creating applications that blend responsive web design with ML techniques
+- 📫 Reach me at: **aryansalian5678@gmail.com** | **+91-6361801455**
 
-### GeeksForGeeks
-- 🏅 Coding Score: 700+
-- 💻 Problems Solved: 250+
-- 📊 Current POTD Streak: 36/1195 days
-- 🌟 Institute Rank: 13
-- 🔥 250+ submissions in current year
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=tokyonight&hide_border=true" alt="Aryan's GitHub stats" height="170px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AryanBV&theme=tokyonight&hide_border=true" alt="Aryan's GitHub Streak" height="170px"/>
+</div>
+
+## 💻 Tech Stack
+
+<div align="center">
+
+### Languages
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### Backend
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
+### Databases
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### Tools & Tech
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+</div>
+
+## 🏆 Competitive Programming
+
+<div align="center">
+  <a href="https://leetcode.com/u/AryanBV/">
+    <img src="https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Stats" width="400"/>
+  </a>
+</div>
+
+<div align="center">
   
-### HackerRank
-- 🏆 Problem Solving (3 star) Badge
-- ✅ Software Engineer Certification
-- ✅ Java (Basic) Certification
-- ✅ Software Engineer Intern Certification
-- 🎯 Hackos Score: 200+
+  ### GeeksForGeeks
+  
+  ![Contest Rating](https://img.shields.io/badge/Contest_Rating-1702-brightgreen?style=for-the-badge)
+  ![Coding Score](https://img.shields.io/badge/Coding_Score-1150+-brightgreen?style=for-the-badge)
+  ![Problems Solved](https://img.shields.io/badge/Problems_Solved-375+-brightgreen?style=for-the-badge)
+</div>
 
-## 🛠️ Tech Stack
-
-- Frontend: ![React](https://img.shields.io/badge/React-black?style=flat-square&logo=react) ![HTML5](https://img.shields.io/badge/HTML5-black?style=flat-square&logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-black?style=flat-square&logo=css3) ![JavaScript](https://img.shields.io/badge/JavaScript-black?style=flat-square&logo=javascript)
-
-- Backend: ![Node.js](https://img.shields.io/badge/Node.js-black?style=flat-square&logo=node.js) ![Python](https://img.shields.io/badge/Python-black?style=flat-square&logo=python) ![Java](https://img.shields.io/badge/Java-black?style=flat-square&logo=openjdk)
-
-- Database: ![MongoDB](https://img.shields.io/badge/MongoDB-black?style=flat-square&logo=mongodb) ![SQL](https://img.shields.io/badge/SQL-black?style=flat-square&logo=mysql)
-
-- Tools: ![VS Code](https://img.shields.io/badge/VS%20Code-black?style=flat-square&logo=visual-studio-code) ![Git](https://img.shields.io/badge/Git-black?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)
-    
 ## 🎯 Featured Projects
 
-### 🌤️ Weather Monitoring System
-A comprehensive real-time Weather Monitoring System with ML predictions
-- Python, OpenWeatherMap API
-- Daily summaries and alerts
-- Machine Learning predictions
+<details>
+<summary><b>🩺 SMART_MED</b> - Diabetes Management System</summary>
+<br>
+A comprehensive diabetes management system featuring:
+<ul>
+  <li>Family tree visualization for tracking genetic predisposition</li>
+  <li>Medical document OCR extraction reducing patient data retrieval time by 40%</li>
+  <li>Interactive dashboard for monitoring health metrics</li>
+</ul>
+<p><b>Tech Stack:</b> React, TypeScript, Node.js, Express.js, MySQL, Tesseract.js</p>
+<p><a href="https://github.com/AryanBV/SMART_MED_2.0">View Repository</a></p>
+</details>
 
-### 🎵 SpotifyClone
-A responsive and visually accurate clone of the Spotify web player
-- Pure HTML and CSS implementation
-- Advanced CSS styling techniques
-- Pixel-perfect recreation
+<details>
+<summary><b>🌦️ Weather Monitoring System</b> - Real-time Weather Data Analysis</summary>
+<br>
+Real-time weather monitoring system for Indian cities showcasing:
+<ul>
+  <li>Data processing and visualization with API integration</li>
+  <li>Predictive analytics for weather forecasting</li>
+  <li>Interactive dashboards with historical data comparison</li>
+</ul>
+<p><b>Tech Stack:</b> Python, Flask, MongoDB, scikit-learn, Pandas, Matplotlib</p>
+<p><a href="https://github.com/AryanBV/weather_monitoring_system">View Repository</a></p>
+</details>
 
-### ⚙️ Rule Engine
-A dynamic Rule Engine with an Abstract Syntax Tree (AST)
-- Built with React and FastAPI
-- Complex business rules evaluation
-- Intuitive web interface
+<details>
+<summary><b>📄 IEEE Paper Generator</b> - AI-Powered Research Assistant</summary>
+<br>
+Full-stack web application for generating IEEE-formatted research papers with:
+<ul>
+  <li>AI-powered content generation and suggestion</li>
+  <li>Automatic image captioning and formatting</li>
+  <li>Citation management and reference styling</li>
+</ul>
+<p><b>Tech Stack:</b> React, Node.js, MySQL, JWT, Multer</p>
+<p><a href="https://github.com/AryanBV/research-paper-assistant">View Repository</a></p>
+</details>
 
-## 🎓 Education
-- B.Tech in Artificial Intelligence and Machine Learning | M S Ramaiah University of Applied Sciences
-- CGPA: 8.285 | 2021-present
+## 🎓 Education & Certifications
 
-## 💼 Experience
-- Internship at Apna College (January 2024)
-  - Focus: Java DSA, Web Development
-  - Technologies: Java, DSA, HTML/CSS, JavaScript, Git
-  - Applied theoretical concepts to real-world programming challenges
-  - Collaborated on team projects to enhance coding skills
+- **B.Tech in Artificial Intelligence and Machine Learning**
+  - M S Ramaiah University of Applied Sciences, Bangalore
+  - CGPA: 8.3/10 | 2021-present
 
-## 🤝 Let's Connect
-- 💼 Open for collaborations and opportunities
-- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/aryan-b-v-78aa63246/) | [Email](mailto:aryansalian5678@gmail.com)
-- 📱 Contact: +91-6361801455
-- 🌱 Currently learning: Advanced AI/ML techniques, DSA, Web Development
+- **Microsoft Certified: Azure AI Fundamentals**
+  - Credential ID: 878ECBC7C3BE4794
 
-## 📚 Additional Interests
-- 📊 Financial Markets Trading
-- 📖 Technology and Finance Literature
-- 📚 Self-Help Books for Personal Development
+- **Alpha (DSA with Java)** by Apna College
+  - Comprehensive data structures and algorithms course
+
+## 📈 Growth Metrics
+- 350+ DSA Problems Solved
+- 180+ Days Continuous Coding Streak
+- 10+ Completed Projects
+- 5+ Technical Certifications
+
+## 🤝 Let's Connect!
+
+I'm open to collaborations, freelance opportunities, and full-time positions. Feel free to reach out!
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/aryan-b-v-78aa63246/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=flat&logo=linkedin" alt="LinkedIn"></a>
+  <a href="mailto:aryansalian5678@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red.svg?style=flat&logo=gmail" alt="Email"></a>
+  <a href="https://aryanbv.github.io/Aryan-Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-brightgreen.svg?style=flat&logo=safari" alt="Portfolio"></a>
+</div>
+
+---
+
+⭐️ From [AryanBV](https://github.com/AryanBV)
