@@ -21,7 +21,7 @@ I'm a final year B.Tech student specializing in **Artificial Intelligence and Ma
 - 💻 I've solved **350+** coding problems on competitive platforms
 - 🏆 Built multiple production-ready applications, including a diabetes management system
 - 🚀 Passionate about creating applications that blend responsive web design with ML techniques
-- 📫 Reach me at: **aryansalian5678@gmail.com** | **+91-6361801455**
+- 📫 Reach me at: **aryansalian5678@gmail.com**
 
 ## 📊 GitHub Activity
 
