@@ -1,7 +1,7 @@
 # <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="29px"> Hello World, I'm Aryan B V
 
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&random=false&width=440&lines=Software+Developer;AI+%26+Machine+Learning+Enthusiast;Full+Stack+Web+Developer;350%2B+DSA+Problems+Solved;Always+Learning+New+Technologies" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&random=false&width=440&lines=Software+Developer;AI+%26+Machine+Learning+Enthusiast;Full+Stack+Web+Developer;375%2B+DSA+Problems+Solved;Always+Learning+New+Technologies" alt="Typing SVG" /></a>
 </div>
 
 <div align="center">
@@ -14,14 +14,14 @@
 
 ## 👨‍💻 About Me
 
-I'm a final year B.Tech student specializing in **Artificial Intelligence and Machine Learning** at M S Ramaiah University of Applied Sciences, Bangalore with a GPA of 8.3/10.
+I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Learning** from M S Ramaiah University of Applied Sciences, Bangalore with a GPA of 8.3/10.
 
 - 🔭 I'm currently working on integrating AI solutions with web applications
 - 🌱 I'm learning advanced Machine Learning algorithms and cloud technologies
-- 💻 I've solved **350+** coding problems on competitive platforms
+- 💻 I've solved **375+** coding problems on competitive platforms
 - 🏆 Built multiple production-ready applications, including a diabetes management system
 - 🚀 Passionate about creating applications that blend responsive web design with ML techniques
-- 📫 Reach me at: **aryansalian5678@gmail.com** | **+91-6361801455**
+- 📫 Reach me at: **aryansalian5678@gmail.com**
 
 ## 📊 GitHub Activity
 
@@ -30,6 +30,10 @@ I'm a final year B.Tech student specializing in **Artificial Intelligence and Ma
     <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanBV&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
     <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanBV&layout=compact&langs_count=7&theme=tokyonight"/>
   </a>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=AryanBV&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
 <div align="center">
@@ -76,6 +80,22 @@ I'm a final year B.Tech student specializing in **Artificial Intelligence and Ma
     </td>
   </tr>
   <tr>
+    <td align="center">AI & ML</td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" />
+      <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+      <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
+      <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Cloud & Services</td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Microsoft%20Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+      <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
     <td align="center">Tools</td>
     <td align="center">
       <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
@@ -91,7 +111,8 @@ I'm a final year B.Tech student specializing in **Artificial Intelligence and Ma
   <a href="https://leetcode.com/AryanBV/">
     <img src="https://leetcard.jacoblin.cool/AryanBV?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Stats" width="500"/>
   </a>
-  
+
+  <!-- UPDATE REMINDER: Update these GeeksForGeeks stats periodically -->
   <h3>GeeksForGeeks</h3>
   <div style="margin-top: 15px;">
     <span style="display: inline-block; margin: 0 5px;">
@@ -164,11 +185,12 @@ I'm a final year B.Tech student specializing in **Artificial Intelligence and Ma
 </div>
 
 ## 📈 Growth Metrics
+<!-- UPDATE REMINDER: Update these metrics monthly to reflect current progress -->
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/350+-DSA_Problems-blue?style=for-the-badge" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/375+-DSA_Problems-blue?style=for-the-badge" /></td>
       <td align="center"><img src="https://img.shields.io/badge/160+-Day_Coding_Streak-green?style=for-the-badge" /></td>
       <td align="center"><img src="https://img.shields.io/badge/10+-Projects_Completed-orange?style=for-the-badge" /></td>
       <td align="center"><img src="https://img.shields.io/badge/5+-Certifications-purple?style=for-the-badge" /></td>
