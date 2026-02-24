@@ -1,7 +1,7 @@
 # <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="29px"> Hello World, I'm Aryan B V
 
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&random=false&width=440&lines=Software+Developer;AI+%26+Machine+Learning+Enthusiast;Full+Stack+Web+Developer;375%2B+DSA+Problems+Solved;Always+Learning+New+Technologies" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&random=false&width=480&lines=Full-Stack+Developer;AI+%26+ML+Engineer;Production-Ready+Apps;544%2B+GitHub+Contributions;Always+Learning+New+Technologies" alt="Typing SVG" /></a>
 </div>
 
 <div align="center">
@@ -12,15 +12,19 @@
   <a href="https://leetcode.com/u/AryanBV/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"></a>
 </div>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AryanBV&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</div>
+
 ## 👨‍💻 About Me
 
-I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Learning** from M S Ramaiah University of Applied Sciences, Bangalore with a GPA of 8.3/10.
+I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Learning** from M S Ramaiah University of Applied Sciences, Bangalore with a GPA of 8.0/10.
 
-- 🔭 I'm currently working on integrating AI solutions with web applications
-- 🌱 I'm learning advanced Machine Learning algorithms and cloud technologies
-- 💻 I've solved **375+** coding problems on competitive platforms
-- 🏆 Built multiple production-ready applications, including a diabetes management system
-- 🚀 Passionate about creating applications that blend responsive web design with ML techniques
+- 🚀 Full-stack developer and AI/ML engineer shipping **production-grade systems** end-to-end
+- 🏭 Built apps actively running in client production environments — from e-commerce to business ops
+- 🤖 Works with **Next.js, Node.js, Supabase, OpenAI API, and Claude API**
+- 📈 **544+** GitHub contributions across **30+** repositories in the last year
+- 🏆 Microsoft Azure AI Fundamentals certified (AI-900)
 - 📫 Reach me at: **aryansalian5678@gmail.com**
 
 ## 📊 GitHub Activity
@@ -40,6 +44,10 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AryanBV&theme=tokyonight" />
 </div>
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AryanBV&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4&row=1&column=7" />
+</div>
+
 ## 💻 Tech Stack
 
 <table align="center">
@@ -50,31 +58,38 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
   <tr>
     <td align="center">Languages</td>
     <td align="center">
-      <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
-      <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
       <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
       <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+      <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
     </td>
   </tr>
   <tr>
     <td align="center">Frontend</td>
     <td align="center">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
       <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-      <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
       <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+      <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
+      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+      <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
     </td>
   </tr>
   <tr>
     <td align="center">Backend</td>
     <td align="center">
       <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
       <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
     </td>
   </tr>
   <tr>
     <td align="center">Databases</td>
     <td align="center">
+      <img src="https://img.shields.io/badge/supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+      <img src="https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
       <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
     </td>
@@ -82,6 +97,8 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
   <tr>
     <td align="center">AI & ML</td>
     <td align="center">
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/Claude_API-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" />
       <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" />
       <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
       <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
@@ -93,6 +110,7 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
     <td align="center">
       <img src="https://img.shields.io/badge/Microsoft%20Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
       <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
+      <img src="https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -100,8 +118,41 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
     <td align="center">
       <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
       <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" />
+      <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" />
+      <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
       <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" />
     </td>
+  </tr>
+</table>
+
+## 🎯 Featured Projects
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Description</th>
+    <th>Tech Stack</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>⚙️ AJSP Manager</td>
+    <td>Business management system <strong>actively used in production</strong> by an automotive spare parts retailer — 500+ SKU inventory, purchase invoicing with multi-file uploads, partial payment tracking, loan/EMI management, deployed as installable PWA.</td>
+    <td>Next.js 16, TypeScript, Supabase, PostgreSQL, shadcn/ui, Zod</td>
+    <td><a href="https://github.com/AryanBV/AJSP-manager">View Repo</a></td>
+  </tr>
+  <tr>
+    <td>🕯️ Lumina Crafts</td>
+    <td>Full-stack e-commerce platform for premium handcrafted candles — Razorpay payment integration (UPI, cards, wallets), real-time cart via Zustand + Supabase subscriptions, RLS security, OAuth auth, sub-2s load times on Vercel.</td>
+    <td>Next.js 14, TypeScript, Supabase, PostgreSQL, Razorpay, Tailwind CSS</td>
+    <td><a href="https://lumina-crafts-aryan-b-vs-projects.vercel.app/">Live</a> | <a href="https://github.com/AryanBV/lumina-crafts">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>🩺 SMART_MED</td>
+    <td>Healthcare management platform with family tree visualization, OCR-based prescription digitization using Tesseract.js, and hierarchical 3-role access control (patient/family/doctor) with RLS enforced at the database level.</td>
+    <td>React 18, TypeScript, Node.js, Express.js, Supabase, Tesseract.js, React Query</td>
+    <td><a href="https://github.com/AryanBV/SMART_MED">View Repo</a></td>
   </tr>
 </table>
 
@@ -127,35 +178,6 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
   </div>
 </div>
 
-## 🎯 Featured Projects
-
-<table>
-  <tr>
-    <th>Project</th>
-    <th>Description</th>
-    <th>Tech Stack</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td>🩺 SMART_MED</td>
-    <td>A diabetes management system with family tree visualization and medical document OCR extraction, reducing patient data retrieval time by 40%.</td>
-    <td>React, TypeScript, Node.js, Express.js, MySQL, Tesseract.js</td>
-    <td><a href="https://github.com/AryanBV/SMART_MED_2.0">View Repo</a></td>
-  </tr>
-  <tr>
-    <td>🌦️ Weather Monitoring System</td>
-    <td>Real-time weather monitoring system for Indian cities, showcasing data processing and visualization with API integration.</td>
-    <td>Python, Flask, MongoDB, scikit-learn, Pandas, Matplotlib</td>
-    <td><a href="https://github.com/AryanBV/weather_monitoring_system">View Repo</a></td>
-  </tr>
-  <tr>
-    <td>📄 IEEE Paper Generator</td>
-    <td>Full-stack web app generating IEEE-formatted research papers with AI-powered content and automatic image captioning.</td>
-    <td>React, Node.js, MySQL, JWT, Multer</td>
-    <td><a href="https://github.com/AryanBV/research-paper-assistant">View Repo</a></td>
-  </tr>
-</table>
-
 ## 🎓 Education & Certifications
 
 <div align="center">
@@ -163,8 +185,8 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Microsoft-Certified-blue?style=for-the-badge&logo=microsoft" alt="Microsoft Certified" /></td>
       <td>
-        <strong>Azure AI Fundamentals</strong><br/>
-        Credential ID: 878ECBC7C3BE4794
+        <strong>Azure AI Fundamentals (AI-900)</strong><br/>
+        Credential ID: 878ECBC7C3BE4794 | Jan 2025
       </td>
     </tr>
     <tr>
@@ -178,24 +200,33 @@ I'm a B.Tech graduate specializing in **Artificial Intelligence and Machine Lear
       <td align="center"><img src="https://img.shields.io/badge/University-Degree-green?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="University Degree" /></td>
       <td>
         <strong>B.Tech in AI & ML</strong><br/>
-        M S Ramaiah University of Applied Sciences | GPA: 8.3/10
+        M S Ramaiah University of Applied Sciences | 2021 – 2025 | GPA: 8.0/10
       </td>
     </tr>
   </table>
 </div>
 
 ## 📈 Growth Metrics
-<!-- UPDATE REMINDER: Update these metrics monthly to reflect current progress -->
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/375+-DSA_Problems-blue?style=for-the-badge" /></td>
-      <td align="center"><img src="https://img.shields.io/badge/160+-Day_Coding_Streak-green?style=for-the-badge" /></td>
-      <td align="center"><img src="https://img.shields.io/badge/10+-Projects_Completed-orange?style=for-the-badge" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/544+-GitHub_Contributions-blue?style=for-the-badge" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/30+-Repositories-green?style=for-the-badge" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/3+-Production_Apps-orange?style=for-the-badge" /></td>
       <td align="center"><img src="https://img.shields.io/badge/5+-Certifications-purple?style=for-the-badge" /></td>
     </tr>
   </table>
+</div>
+
+## 🐍 Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AryanBV/AryanBV/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AryanBV/AryanBV/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ## 📫 Let's Connect
