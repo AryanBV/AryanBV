@@ -38,6 +38,9 @@ I'm an **AI/ML Engineer & Full-Stack Developer** — I ship production-grade sys
 > **Export Intelligence Platform** — an all-in-one platform for Indian SME exporters, tackling HS code classification, compliance, and documentation automation.
 
 ---
+> 🟢 **Open to Work** — Full-Stack & AI/ML Engineering roles in Bangalore
+
+---
 
 ## 🛠️ Tech Stack
 
