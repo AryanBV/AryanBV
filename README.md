@@ -37,7 +37,6 @@ I'm an **AI/ML Engineer & Full-Stack Developer** — I ship production-grade sys
 
 > **Export Intelligence Platform** — an all-in-one platform for Indian SME exporters, tackling HS code classification, compliance, and documentation automation.
 
----
 > 🟢 **Open to Work** — Full-Stack & AI/ML Engineering roles in Bangalore
 
 ---
@@ -100,8 +99,7 @@ I'm an **AI/ML Engineer & Full-Stack Developer** — I ship production-grade sys
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBV&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-stats-alpha.vercel.app/api?username=AryanBV&cc=22272e&tc=70a5fd&ic=70a5fd&bc=22272e" alt="GitHub Stats" />
 </div>
 
 <div align="center">
@@ -114,14 +112,6 @@ I'm an **AI/ML Engineer & Full-Stack Developer** — I ship production-grade sys
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AryanBV&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true&custom_title=Contribution%20Activity%20-%20Last%2031%20Days" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AryanBV&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
 </div>
 
 ---
