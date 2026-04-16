@@ -41,7 +41,7 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 - **Stack:** Next.js · Python · TypeScript · Claude API · MCP SDK
 - **Certified:** Microsoft Azure AI Fundamentals (AI-900)
 - **Education:** B.Tech in AI & ML — M S Ramaiah University of Applied Sciences
-- **Reach me:** aryansalian5678@gmail.com
+- **Reach me:** aryan@aryanbv.com
 
 ---
 
