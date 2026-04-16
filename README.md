@@ -5,7 +5,7 @@
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&random=false&width=700&lines=I+turn+business+problems+into+production+software;Next.js+%C2%B7+Python+%C2%B7+Claude+API+%C2%B7+MCP+SDK;Shipped+pdf-edit-engine+to+PyPI+%E2%80%94+628+tests%2C+mypy+strict;38-tool+MCP+server+for+format-preserving+PDF+editing;Find+the+real+problem%2C+build+what+actually+fixes+it" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&random=false&width=700&lines=I+turn+business+problems+into+production+software;Next.js+%C2%B7+Python+%C2%B7+Claude+API+%C2%B7+MCP+SDK;Shipped+pdf-edit-engine+to+PyPI;38-tool+MCP+server+for+format-preserving+PDF+editing;Find+the+real+problem%2C+build+what+actually+fixes+it" alt="Typing SVG" />
 </a>
 
 <!-- SOCIAL BADGES -->
