@@ -11,7 +11,7 @@
 <!-- SOCIAL BADGES -->
 <a href="https://aryanbv.com"><img src="https://img.shields.io/badge/aryanbv.com-0284C7?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" /></a>
 <a href="https://www.linkedin.com/in/aryan-b-v-78aa63246/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" /></a>
-<a href="mailto:aryansalian5678@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" /></a>
+<a href="mailto:aryan@aryanbv.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" /></a>
 <a href="https://pypi.org/project/pdf-edit-engine/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white&labelColor=0D1117" /></a>
 <a href="https://www.npmjs.com/package/@aryanbv/pdf-toolkit-mcp"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0D1117" /></a>
 
