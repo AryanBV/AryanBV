@@ -206,7 +206,7 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 <a href="https://aryanbv.com"><img src="https://img.shields.io/badge/Portfolio-aryanbv.com-0284C7?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" /></a>
 <a href="https://www.linkedin.com/in/aryan-b-v-78aa63246/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" /></a>
-<a href="mailto:aryansalian5678@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" /></a>
+<a href="mailto:aryan@aryanbv.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" /></a>
 
 </div>
 
