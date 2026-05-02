@@ -62,19 +62,19 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 [![My Skills](https://skillicons.dev/icons?i=supabase,postgres&theme=dark)](https://skillicons.dev)
 
-![Claude API](https://img.shields.io/badge/Claude_API-F5A623?style=flat-square&logo=anthropic&logoColor=0A0A0A&labelColor=0A0A0A)
-![MCP SDK](https://img.shields.io/badge/MCP_SDK-F5A623?style=flat-square&labelColor=0A0A0A)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white&labelColor=0A0A0A)
-![Tesseract.js](https://img.shields.io/badge/Tesseract.js-F5A623?style=flat-square&labelColor=0A0A0A)
+![Claude API](https://img.shields.io/badge/Claude_API-F5A623?style=flat-square)
+![MCP SDK](https://img.shields.io/badge/MCP_SDK-F5A623?style=flat-square)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
+![Tesseract.js](https://img.shields.io/badge/Tesseract.js-F5A623?style=flat-square)
 
 **`SHIP`** — Deploy & validate
 
 [![My Skills](https://skillicons.dev/icons?i=vercel,github&theme=dark)](https://skillicons.dev)
 
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white&labelColor=0A0A0A)
-![mypy](https://img.shields.io/badge/mypy-F5A623?style=flat-square&labelColor=0A0A0A)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white&labelColor=0A0A0A)
-![PWA](https://img.shields.io/badge/PWA-F5A623?style=flat-square&logo=pwa&logoColor=0A0A0A&labelColor=0A0A0A)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![mypy](https://img.shields.io/badge/mypy-F5A623?style=flat-square)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-F5A623?style=flat-square&logo=pwa&logoColor=0A0A0A)
 
 </div>
 
