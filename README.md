@@ -74,7 +74,9 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 <br/><br/>
 <em>Format-preserving PDF text editing<br/>at the content-stream level</em>
 <br/><br/>
-<sub><strong>660 tests</strong> · 88% coverage · 4 PDF generators · 81-invariant audit suite</sub>
+<strong>660 tests</strong>
+<br/>
+<sub>88% coverage · 4 PDF generators · 81-invariant audit</sub>
 <br/><br/>
 </td>
 <td width="33%" valign="top" align="center">
@@ -85,7 +87,9 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 <br/><br/>
 <em>38-tool MCP server for<br/>format-preserving PDF editing</em>
 <br/><br/>
-<sub><strong>38 tools</strong> · 7 categories · 3 prompts · Zod-validated</sub>
+<strong>38 tools</strong>
+<br/>
+<sub>7 categories · 3 prompts · Zod-validated</sub>
 <br/><br/>
 </td>
 <td width="33%" valign="top" align="center">
@@ -96,7 +100,9 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 <br/><br/>
 <em>Zero-config MCP server for<br/>creating and manipulating PDFs</em>
 <br/><br/>
-<sub><strong>16 tools</strong> · 51 tests · MCP Registry listed</sub>
+<strong>16 tools</strong>
+<br/>
+<sub>51 tests · MCP Registry listed</sub>
 <br/><br/>
 </td>
 </tr>
@@ -134,7 +140,7 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 | | Credential |
 |:---:|:---|
-| ![Microsoft](https://img.shields.io/badge/Microsoft-Certified-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0A0A0A) | **Azure AI Fundamentals (AI-900)** — Credential ID: 878ECBC7C3BE4794 · 2024 |
+| ![Microsoft](https://img.shields.io/badge/Microsoft-Certified-F5A623?style=for-the-badge&logo=microsoft&logoColor=0A0A0A&labelColor=0A0A0A) | **Azure AI Fundamentals (AI-900)** — Credential ID: 878ECBC7C3BE4794 · 2024 |
 | ![MERN](https://img.shields.io/badge/Apna_College-Delta_MERN-FF6B35?style=for-the-badge&labelColor=0A0A0A) | **Full Stack Web Development — Delta Batch** · 2024 |
 | ![DSA](https://img.shields.io/badge/Apna_College-Alpha_DSA-FF6B35?style=for-the-badge&labelColor=0A0A0A) | **Java & Data Structures — Alpha Batch** · 2023 |
 | ![University](https://img.shields.io/badge/B.Tech-AI_%26_ML-F5A623?style=for-the-badge&labelColor=0A0A0A) | **M S Ramaiah University of Applied Sciences** · 2021–2025 · GPA 8.0/10 |
