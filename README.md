@@ -13,14 +13,6 @@
 <a href="https://pypi.org/project/pdf-edit-engine/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white&labelColor=0A0A0A" /></a>
 <a href="https://www.npmjs.com/package/@aryanbv/pdf-toolkit-mcp"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0A0A0A" /></a>
 
-<br/><br/>
-
-<!-- IMPACT METRICS -->
-<img src="https://img.shields.io/badge/660_tests-PyPI_shipped-F5A623?style=for-the-badge&labelColor=0A0A0A" />
-<img src="https://img.shields.io/badge/38_MCP_tools-Claude--ready-F5A623?style=for-the-badge&labelColor=0A0A0A" />
-<img src="https://img.shields.io/badge/16_tools-MCP_Registry-F5A623?style=for-the-badge&labelColor=0A0A0A" />
-<img src="https://img.shields.io/badge/AI--900-Azure_certified-F5A623?style=for-the-badge&logo=microsoft&logoColor=0A0A0A&labelColor=0A0A0A" />
-
 </div>
 
 ---
@@ -37,14 +29,6 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 - **Certified:** Microsoft Azure AI Fundamentals (AI-900)
 - **Education:** B.Tech in AI & ML — M S Ramaiah University of Applied Sciences
 - **Reach me:** aryan@aryanbv.com
-
----
-
-## Currently Building
-
-> Building with **Next.js · Python · Claude API · MCP SDK**
-
-> Open to **remote and hybrid roles** — freelance, contract, and full-time
 
 ---
 
@@ -127,28 +111,6 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 <a href="https://github.com/AryanBV/lumina-crafts"><img src="https://img.shields.io/badge/Lumina_Crafts-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
 <a href="https://github.com/AryanBV/hs-code-classifier"><img src="https://img.shields.io/badge/HS_Code_Classifier-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
 <a href="https://github.com/AryanBV/drone-controller-app"><img src="https://img.shields.io/badge/Drone_Controller-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<!-- STATS + TOP LANGUAGES SIDE BY SIDE -->
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&icon_color=F5A623&ring_color=F5A623&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBV&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&langs_count=8" alt="Top Languages" />
-
-<br/>
-
-<!-- STREAK -->
-<img src="https://streak-stats.demolab.com/?user=AryanBV&hide_border=true&background=0A0A0A&stroke=171513&ring=F5A623&fire=FF6B35&currStreakLabel=F5A623&currStreakNum=F5F5F5&sideLabels=F5A623&sideNums=F5F5F5&dates=A09888" alt="GitHub Streak" />
-
-<br/><br/>
-
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=AryanBV&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
 
 </div>
 
