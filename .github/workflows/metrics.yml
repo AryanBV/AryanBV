@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 2 * * *"           # daily at 02:00 UTC
   workflow_dispatch:
-  push:
-    branches: [ claude/update-readme-info-zOLNp ]   # TEMPORARY: bootstrap run; removed before merge to main
 
 permissions:
   contents: write

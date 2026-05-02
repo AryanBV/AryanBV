@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 */6 * * *"   # runs every 6 hours
   workflow_dispatch:          # allows manual trigger from Actions tab
-  push:
-    branches: [ claude/update-readme-info-zOLNp ]   # TEMPORARY: bootstrap run; removed before merge to main
 
 permissions:
   contents: write             # REQUIRED: allows pushing SVGs to the output branch

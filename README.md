@@ -134,16 +134,6 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub Metrics" />
-
-</div>
-
----
-
 ## Contribution Snake
 
 <div align="center">
