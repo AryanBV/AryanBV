@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 2 * * *"           # daily at 02:00 UTC
   workflow_dispatch:
-  push:
-    branches: [ claude/improve-metrics-stats ]   # TEMPORARY: bootstrap run; removed before merge
 
 permissions:
   contents: write
@@ -19,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate metrics SVG (isocalendar bisect)
+      - name: Generate metrics SVG (baseline — plugins TBD)
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,8 +26,12 @@ jobs:
           output_action: none
           base: header
           config_timezone: Asia/Kolkata
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # TODO: re-enable plugins once they can be debugged with workflow log access:
+          #   plugin_isocalendar (3D contribution calendar)
+          #   plugin_languages (replaces top-langs card)
+          #   plugin_achievements (GitHub achievement badges)
+          # All three failed silently in CI — likely needs PAT with extra scopes
+          # or the action is incompatible with the runner environment.
 
       - name: Stage SVG
         run: |
