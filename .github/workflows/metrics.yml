@@ -1,8 +1,10 @@
 name: Generate Metrics
 
 on:
-  schedule:
-    - cron: "0 2 * * *"           # daily at 02:00 UTC
+  # Schedule disabled — workflow currently fails in CI for unknown reason
+  # (lowlighter/metrics action exits non-zero even with minimal config; needs
+  # debugging from a machine with workflow log access). Re-enable the cron
+  # once the failure mode is identified and fixed.
   workflow_dispatch:
 
 permissions:
