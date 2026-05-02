@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 200" width="1500" height="200" role="img" aria-label="Aryan B V — Engineer who ships.">
+  <defs>
+    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1500" height="200" fill="url(#amber)"/>
+  <rect width="1500" height="200" fill="url(#fade)"/>
+  <path d="M0 168 C 250 188, 500 148, 750 168 C 1000 188, 1250 148, 1500 168 L 1500 200 L 0 200 Z" fill="#0A0A0A" opacity="0.12"/>
+  <text x="750" y="100" text-anchor="middle" fill="#F5F5F5" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="3">Aryan B V</text>
+  <text x="750" y="142" text-anchor="middle" fill="#F5F5F5" fill-opacity="0.86" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" letter-spacing="2">Engineer who ships.</text>
+</svg>
