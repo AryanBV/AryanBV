@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: output
+          fetch-depth: 1
 
       - name: Generate metrics SVG
         uses: lowlighter/metrics@v3.34
@@ -28,17 +31,16 @@ jobs:
           user: AryanBV
           template: classic
           filename: metrics.svg
-          output_action: none
+          committer_branch: output
+          committer_message: "chore: update metrics [skip ci]"
 
           base: header, metadata
           config_timezone: Asia/Kolkata
-          config_padding: 0, 8 + 11%
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
           plugin_languages: yes
-          plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell
@@ -47,29 +49,3 @@ jobs:
             svg { background: #0A0A0A !important; }
             text, tspan { fill: #F5F5F5 !important; }
             a, a text, a tspan { fill: #F5A623 !important; }
-            .calendar-rect { stroke: #2A2520 !important; }
-
-      - name: Stage SVG
-        run: |
-          echo "=== workspace ($(pwd)) ==="
-          ls -la
-          echo "=== find all .svg in workspace ==="
-          find . -name "*.svg" -type f 2>/dev/null
-          mkdir -p dist
-          SVG=$(find . -name "metrics.svg" -type f 2>/dev/null | head -1)
-          if [ -n "$SVG" ]; then
-            cp "$SVG" dist/metrics.svg
-            echo "OK: copied $SVG ($(stat -c%s dist/metrics.svg) bytes)"
-          else
-            echo "FAIL: metrics.svg not found anywhere"
-            exit 1
-          fi
-
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          keep_files: true
-          commit_message: "chore: update metrics [skip ci]"
