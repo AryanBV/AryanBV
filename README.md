@@ -26,6 +26,8 @@ I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade syst
 Whether it's document processing infrastructure or full-stack web platforms, the approach is the same: find the real problem, go deep enough to actually fix it, and ship with enough discipline to trust the result.
 
 - **Stack:** Next.js · Python · TypeScript · Claude API · MCP SDK
+- **Languages:** Python · TypeScript · JavaScript · Java · C++
+- **Location:** Bengaluru, India
 - **Certified:** Microsoft Azure AI Fundamentals (AI-900)
 - **Education:** B.Tech in AI & ML — M S Ramaiah University of Applied Sciences
 - **Reach me:** aryan@aryanbv.com
@@ -108,6 +110,14 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 <a href="https://github.com/AryanBV/hs-code-classifier"><img src="https://img.shields.io/badge/HS_Code_Classifier-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
 <a href="https://github.com/AryanBV/drone-controller-app"><img src="https://img.shields.io/badge/Drone_Controller-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
 
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, programming languages, contribution calendar (3D isometric)" />
 </div>
 
 ---

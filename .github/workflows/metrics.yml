@@ -1,0 +1,70 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/metrics.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics SVG
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: AryanBV
+          template: classic
+          filename: metrics.svg
+          output_action: none
+
+          base: header, metadata
+          config_timezone: Asia/Kolkata
+          config_padding: 0, 8 + 11%
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell
+
+          extras_css: |
+            svg { background: #0A0A0A !important; }
+            text, tspan { fill: #F5F5F5 !important; }
+            a, a text, a tspan { fill: #F5A623 !important; }
+            .calendar-rect { stroke: #2A2520 !important; }
+
+      - name: Stage SVG
+        run: |
+          mkdir -p dist
+          if [ -f metrics.svg ]; then
+            mv metrics.svg dist/metrics.svg
+            echo "OK: $(stat -c%s dist/metrics.svg) bytes"
+          else
+            echo "FAIL: metrics.svg not produced"
+            exit 1
+          fi
+
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          keep_files: true
+          commit_message: "chore: update metrics [skip ci]"
