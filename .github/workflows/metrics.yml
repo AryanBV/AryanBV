@@ -51,12 +51,17 @@ jobs:
 
       - name: Stage SVG
         run: |
+          echo "=== workspace ($(pwd)) ==="
+          ls -la
+          echo "=== find all .svg in workspace ==="
+          find . -name "*.svg" -type f 2>/dev/null
           mkdir -p dist
-          if [ -f metrics.svg ]; then
-            mv metrics.svg dist/metrics.svg
-            echo "OK: $(stat -c%s dist/metrics.svg) bytes"
+          SVG=$(find . -name "metrics.svg" -type f 2>/dev/null | head -1)
+          if [ -n "$SVG" ]; then
+            cp "$SVG" dist/metrics.svg
+            echo "OK: copied $SVG ($(stat -c%s dist/metrics.svg) bytes)"
           else
-            echo "FAIL: metrics.svg not produced"
+            echo "FAIL: metrics.svg not found anywhere"
             exit 1
           fi
 
