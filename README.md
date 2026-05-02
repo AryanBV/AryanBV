@@ -3,10 +3,8 @@
 <!-- HEADER BANNER -->
 <img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/header.svg" alt="Aryan B V — Engineer who ships." />
 
-<!-- TYPING SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F5A623&center=true&vCenter=true&random=false&width=700&lines=I+turn+business+problems+into+production+software;Next.js+%C2%B7+Python+%C2%B7+Claude+API+%C2%B7+MCP+SDK;Shipped+pdf-edit-engine+to+PyPI;38-tool+MCP+server+for+format-preserving+PDF+editing;Find+the+real+problem%2C+build+what+actually+fixes+it" alt="Typing SVG" />
-</a>
+<!-- TYPING SVG (self-hosted, SMIL-animated) -->
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/typing.svg" alt="I turn business problems into production software" />
 
 <!-- SOCIAL BADGES -->
 <a href="https://aryanbv.com"><img src="https://img.shields.io/badge/aryanbv.com-F5A623?style=for-the-badge&logo=safari&logoColor=0A0A0A&labelColor=0A0A0A" /></a>
@@ -56,11 +54,11 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 **`BUILD`** — Frontend & backend code
 
-[![My Skills](https://skillicons.dev/icons?i=nextjs,react,ts,python,tailwind,nestjs,express&theme=dark)](https://skillicons.dev)
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-build.svg" alt="Next.js · React · TypeScript · Python · Tailwind · NestJS · Express" />
 
 **`INTEGRATE`** — APIs, databases, AI
 
-[![My Skills](https://skillicons.dev/icons?i=supabase,postgres&theme=dark)](https://skillicons.dev)
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-integrate.svg" alt="Supabase · PostgreSQL" />
 
 ![Claude API](https://img.shields.io/badge/Claude_API-F5A623?style=flat-square)
 ![MCP SDK](https://img.shields.io/badge/MCP_SDK-F5A623?style=flat-square)
@@ -69,7 +67,7 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 **`SHIP`** — Deploy & validate
 
-[![My Skills](https://skillicons.dev/icons?i=vercel,github&theme=dark)](https://skillicons.dev)
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-ship.svg" alt="Vercel · GitHub" />
 
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![mypy](https://img.shields.io/badge/mypy-F5A623?style=flat-square)
