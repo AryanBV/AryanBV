@@ -19,30 +19,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate composite metrics SVG
-        uses: lowlighter/metrics@latest
+      - name: Generate metrics SVG (minimal baseline)
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: AryanBV
           filename: metrics.svg
           output_action: none
-          base: header, community, repositories, metadata
+          base: header
           config_timezone: Asia/Kolkata
-          plugin_isocalendar: yes
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_lines: yes
 
-      - name: Stage SVG
+      - name: Diagnose + stage SVG
         run: |
+          echo "=== workspace listing ==="
           ls -la
+          echo "=== finding metrics.svg ==="
+          find . -name 'metrics.svg' -not -path './.git/*' 2>/dev/null || true
           mkdir -p dist
           if [ -f metrics.svg ]; then
             mv metrics.svg dist/metrics.svg
-            echo "Staged metrics.svg ($(stat -c%s dist/metrics.svg) bytes)"
+            echo "OK: staged $(stat -c%s dist/metrics.svg) bytes"
+          elif [ -f /metrics_renders/metrics.svg ]; then
+            cp /metrics_renders/metrics.svg dist/metrics.svg
+            echo "OK: staged from /metrics_renders ($(stat -c%s dist/metrics.svg) bytes)"
           else
-            echo "ERROR: metrics.svg was not generated"
-            ls -la
+            echo "FAIL: metrics.svg not produced"
             exit 1
           fi
 
