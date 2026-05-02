@@ -1,0 +1,59 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 2 * * *"           # daily at 02:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate composite metrics SVG
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: AryanBV
+          template: classic
+          filename: metrics.svg
+          output_action: none
+          base: header, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          config_display: regular
+          config_padding: 0, 8 + 11%
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_achievements: yes
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          extras_css: |
+            svg { background: #0A0A0A !important; }
+            text, tspan { fill: #F5F5F5 !important; }
+            a, a text, a tspan { fill: #F5A623 !important; }
+
+      - name: Stage SVG
+        run: |
+          mkdir -p dist
+          mv metrics.svg dist/metrics.svg
+
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          keep_files: true
+          commit_message: "chore: update metrics [skip ci]"
