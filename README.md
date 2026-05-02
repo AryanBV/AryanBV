@@ -42,21 +42,11 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 **`INTEGRATE`** — APIs, databases, AI
 
-<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-integrate.svg" alt="Supabase · PostgreSQL" />
-
-![Claude API](https://img.shields.io/badge/Claude_API-F5A623?style=flat-square)
-![MCP SDK](https://img.shields.io/badge/MCP_SDK-F5A623?style=flat-square)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
-![Tesseract.js](https://img.shields.io/badge/Tesseract.js-F5A623?style=flat-square)
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-integrate.svg" alt="Supabase · PostgreSQL · Anthropic (Claude API + MCP) · Razorpay" />
 
 **`SHIP`** — Deploy & validate
 
-<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-ship.svg" alt="Vercel · GitHub" />
-
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![mypy](https://img.shields.io/badge/mypy-F5A623?style=flat-square)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-F5A623?style=flat-square&logo=pwa&logoColor=0A0A0A)
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-ship.svg" alt="Vercel · GitHub · pytest · Zod · PWA" />
 
 </div>
 
