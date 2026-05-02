@@ -62,19 +62,19 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 [![My Skills](https://skillicons.dev/icons?i=supabase,postgres&theme=dark)](https://skillicons.dev)
 
-![Claude API](https://img.shields.io/badge/Claude_API-F5A623?style=flat-square&logo=anthropic&logoColor=0A0A0A&labelColor=0A0A0A)
-![MCP SDK](https://img.shields.io/badge/MCP_SDK-F5A623?style=flat-square&labelColor=0A0A0A)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white&labelColor=0A0A0A)
-![Tesseract.js](https://img.shields.io/badge/Tesseract.js-F5A623?style=flat-square&labelColor=0A0A0A)
+![Claude API](https://img.shields.io/badge/Claude_API-F5A623?style=flat-square)
+![MCP SDK](https://img.shields.io/badge/MCP_SDK-F5A623?style=flat-square)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
+![Tesseract.js](https://img.shields.io/badge/Tesseract.js-F5A623?style=flat-square)
 
 **`SHIP`** — Deploy & validate
 
 [![My Skills](https://skillicons.dev/icons?i=vercel,github&theme=dark)](https://skillicons.dev)
 
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white&labelColor=0A0A0A)
-![mypy](https://img.shields.io/badge/mypy-F5A623?style=flat-square&labelColor=0A0A0A)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white&labelColor=0A0A0A)
-![PWA](https://img.shields.io/badge/PWA-F5A623?style=flat-square&logo=pwa&logoColor=0A0A0A&labelColor=0A0A0A)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![mypy](https://img.shields.io/badge/mypy-F5A623?style=flat-square)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-F5A623?style=flat-square&logo=pwa&logoColor=0A0A0A)
 
 </div>
 
@@ -138,7 +138,19 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub Metrics" />
+<!-- STATS + TOP LANGUAGES SIDE BY SIDE -->
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&icon_color=F5A623&ring_color=F5A623&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBV&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&langs_count=8" alt="Top Languages" />
+
+<br/>
+
+<!-- STREAK -->
+<img src="https://streak-stats.demolab.com/?user=AryanBV&hide_border=true&background=0A0A0A&stroke=171513&ring=F5A623&fire=FF6B35&currStreakLabel=F5A623&currStreakNum=F5F5F5&sideLabels=F5A623&sideNums=F5F5F5&dates=A09888" alt="GitHub Streak" />
+
+<br/><br/>
+
+<!-- TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=AryanBV&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
 
 </div>
 

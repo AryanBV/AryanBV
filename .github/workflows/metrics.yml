@@ -1,8 +1,10 @@
 name: Generate Metrics
 
 on:
-  schedule:
-    - cron: "0 2 * * *"           # daily at 02:00 UTC
+  # Schedule disabled — workflow currently fails in CI for unknown reason
+  # (lowlighter/metrics action exits non-zero even with minimal config; needs
+  # debugging from a machine with workflow log access). Re-enable the cron
+  # once the failure mode is identified and fixed.
   workflow_dispatch:
 
 permissions:
@@ -17,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate metrics SVG (minimal baseline)
+      - name: Generate metrics SVG (baseline — plugins TBD)
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -26,20 +28,20 @@ jobs:
           output_action: none
           base: header
           config_timezone: Asia/Kolkata
+          # TODO: re-enable plugins once they can be debugged with workflow log access:
+          #   plugin_isocalendar (3D contribution calendar)
+          #   plugin_languages (replaces top-langs card)
+          #   plugin_achievements (GitHub achievement badges)
+          # All three failed silently in CI — likely needs PAT with extra scopes
+          # or the action is incompatible with the runner environment.
 
-      - name: Diagnose + stage SVG
+      - name: Stage SVG
         run: |
-          echo "=== workspace listing ==="
           ls -la
-          echo "=== finding metrics.svg ==="
-          find . -name 'metrics.svg' -not -path './.git/*' 2>/dev/null || true
           mkdir -p dist
           if [ -f metrics.svg ]; then
             mv metrics.svg dist/metrics.svg
-            echo "OK: staged $(stat -c%s dist/metrics.svg) bytes"
-          elif [ -f /metrics_renders/metrics.svg ]; then
-            cp /metrics_renders/metrics.svg dist/metrics.svg
-            echo "OK: staged from /metrics_renders ($(stat -c%s dist/metrics.svg) bytes)"
+            echo "OK: $(stat -c%s dist/metrics.svg) bytes"
           else
             echo "FAIL: metrics.svg not produced"
             exit 1
