@@ -58,12 +58,13 @@ jobs:
             text, tspan { fill: #F5F5F5 !important; }
             a, a text, a tspan { fill: #F5A623 !important; }
 
-            /* hide the "Followed by N users" field — vanity metric */
+            /* hide the "Followed by N users" field — vanity metric.
+               targets the unique user-with-followers icon path */
             div.field:has(svg path[d^="M5.5 3.5a2 2"]) { display: none !important; }
 
-            /* hide the "Contributions calendar" subheader — the 3D calendar
-               itself is self-evident; the label clips visually */
-            h2.field:has(svg path[d^="M4.75 0a.75.75 0"]) { display: none !important; }
+            /* hide redundant section subheaders (Contributions calendar,
+               4 Languages) — the data is self-explanatory */
+            h2.field { display: none !important; }
 
             /* recolor GitHub default green calendar to amber palette */
             [fill="#ebedf0"] { fill: #171513 !important; }
