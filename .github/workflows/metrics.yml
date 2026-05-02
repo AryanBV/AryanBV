@@ -45,4 +45,13 @@ jobs:
             svg { background: #0A0A0A !important; }
             text, tspan { fill: #F5F5F5 !important; }
             a, a text, a tspan { fill: #F5A623 !important; }
-            .calendar-rect { stroke: #2A2520 !important; }
+
+            /* hide the "Followed by N users" field — vanity metric */
+            section .field:nth-of-type(2) { display: none !important; }
+
+            /* recolor contribution calendar from default GitHub green to amber */
+            [fill="#ebedf0"] { fill: #171513 !important; }
+            [fill="#9be9a8"] { fill: #5A3F1F !important; }
+            [fill="#40c463"] { fill: #B27512 !important; }
+            [fill="#30a14e"] { fill: #F5A623 !important; }
+            [fill="#216e39"] { fill: #FF6B35 !important; }
