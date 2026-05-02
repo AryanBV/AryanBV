@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 2 * * *"           # daily at 02:00 UTC
   workflow_dispatch:
+  push:
+    branches: [ claude/improve-metrics-stats ]   # TEMPORARY: bootstrap run; removed before merge
 
 permissions:
   contents: write
@@ -17,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate metrics SVG (minimal baseline)
+      - name: Generate composite metrics SVG
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -26,22 +28,30 @@ jobs:
           output_action: none
           base: header
           config_timezone: Asia/Kolkata
+          # 3D isometric contribution calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          # Languages breakdown (replaces old top-langs card)
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: bytes-size, percentage
+          # GitHub Achievements showcase
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: no
 
-      - name: Diagnose + stage SVG
+      - name: Stage SVG
         run: |
-          echo "=== workspace listing ==="
           ls -la
-          echo "=== finding metrics.svg ==="
-          find . -name 'metrics.svg' -not -path './.git/*' 2>/dev/null || true
           mkdir -p dist
           if [ -f metrics.svg ]; then
             mv metrics.svg dist/metrics.svg
             echo "OK: staged $(stat -c%s dist/metrics.svg) bytes"
-          elif [ -f /metrics_renders/metrics.svg ]; then
-            cp /metrics_renders/metrics.svg dist/metrics.svg
-            echo "OK: staged from /metrics_renders ($(stat -c%s dist/metrics.svg) bytes)"
           else
             echo "FAIL: metrics.svg not produced"
+            find . -name 'metrics*.svg' -not -path './.git/*' 2>/dev/null || true
             exit 1
           fi
 
