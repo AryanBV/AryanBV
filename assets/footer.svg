@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 120" width="1500" height="120" role="img" aria-label="">
+  <defs>
+    <linearGradient id="amberRev" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 28 C 250 8, 500 48, 750 28 C 1000 8, 1250 48, 1500 28 L 1500 120 L 0 120 Z" fill="url(#amberRev)"/>
+</svg>

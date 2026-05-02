@@ -1,0 +1,55 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 2 * * *"           # daily at 02:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics SVG (minimal baseline)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: AryanBV
+          filename: metrics.svg
+          output_action: none
+          base: header
+          config_timezone: Asia/Kolkata
+
+      - name: Diagnose + stage SVG
+        run: |
+          echo "=== workspace listing ==="
+          ls -la
+          echo "=== finding metrics.svg ==="
+          find . -name 'metrics.svg' -not -path './.git/*' 2>/dev/null || true
+          mkdir -p dist
+          if [ -f metrics.svg ]; then
+            mv metrics.svg dist/metrics.svg
+            echo "OK: staged $(stat -c%s dist/metrics.svg) bytes"
+          elif [ -f /metrics_renders/metrics.svg ]; then
+            cp /metrics_renders/metrics.svg dist/metrics.svg
+            echo "OK: staged from /metrics_renders ($(stat -c%s dist/metrics.svg) bytes)"
+          else
+            echo "FAIL: metrics.svg not produced"
+            exit 1
+          fi
+
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          keep_files: true
+          commit_message: "chore: update metrics [skip ci]"
