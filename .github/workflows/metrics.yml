@@ -42,14 +42,22 @@ jobs:
           plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell, tex
 
           extras_css: |
+            /* canvas */
             svg { background: #0A0A0A !important; }
+
+            /* HTML text inside foreignObject — overrides lowlighter defaults */
+            h1, h2, h3 { color: #F5A623 !important; }
+            section, .field, div { color: #F5F5F5 !important; }
+
+            /* SVG text */
             text, tspan { fill: #F5F5F5 !important; }
             a, a text, a tspan { fill: #F5A623 !important; }
 
-            /* hide the "Followed by N users" field — vanity metric */
-            section .field:nth-of-type(2) { display: none !important; }
+            /* hide ONLY the "Followed by N users" field by matching its
+               unique SVG icon path (user-with-followers icon) */
+            div.field:has(svg path[d^="M5.5 3.5a2 2"]) { display: none !important; }
 
-            /* recolor contribution calendar from default GitHub green to amber */
+            /* recolor GitHub default green calendar to amber palette */
             [fill="#ebedf0"] { fill: #171513 !important; }
             [fill="#9be9a8"] { fill: #5A3F1F !important; }
             [fill="#40c463"] { fill: #B27512 !important; }
