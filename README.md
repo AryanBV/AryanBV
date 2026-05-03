@@ -21,16 +21,16 @@
 
 > _"Find the real problem, build what actually fixes it."_
 
-I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade systems. When existing PDF libraries silently destroyed fonts and layout by covering text with white rectangles and stamping replacements in substitute fonts, I built the fix from the content-stream level up — a Python engine with **660 tests** under `mypy --strict`, an **81-invariant audit suite across 14 layers**, validated against 4 PDF generators, then wrapped in two MCP servers exposing 54 tools for AI agents.
+I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade systems. My PDF library `pdf-edit-engine` (**660 tests**, **88% coverage**, **81-invariant audit suite across 14 layers**, validated against 4 PDF generators) is on PyPI; two MCP servers built on it expose **54 tools** to AI agents.
 
-Whether it's document processing infrastructure or full-stack web platforms, the approach is the same: find the real problem, go deep enough to actually fix it, and ship with enough discipline to trust the result.
+When existing PDF libraries silently destroyed fonts and layout, I rebuilt the fix from the content-stream level up. Same approach everywhere: find the real problem, go deep enough to fix it, ship with discipline.
 
 - **Stack:** Next.js · Python · TypeScript · Claude API · MCP SDK
 - **Languages:** Python · TypeScript · JavaScript · Java · C++
+- **Other Work:** Lumina Crafts · HS Code Classifier · Drone Controller
 - **Location:** Bengaluru, India
 - **Certified:** Microsoft Azure AI Fundamentals (AI-900)
 - **Education:** B.Tech in AI & ML — M S Ramaiah University of Applied Sciences
-- **Reach me:** aryan@aryanbv.com
 
 ---
 
@@ -44,11 +44,11 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 **`INTEGRATE`** — APIs, databases, AI
 
-<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-integrate.svg" alt="Supabase · PostgreSQL · Anthropic (Claude API + MCP) · Razorpay" />
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-integrate.svg" alt="Supabase · PostgreSQL · Claude · OpenAI · Razorpay" />
 
 **`SHIP`** — Deploy & validate
 
-<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-ship.svg" alt="Vercel · GitHub · pytest · Zod · PWA" />
+<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/main/assets/tech-ship.svg" alt="Vercel · Railway · GitHub · pytest · Zod · PWA" />
 
 </div>
 
@@ -102,18 +102,6 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 ---
 
-## Other Work
-
-<div align="center">
-
-<a href="https://github.com/AryanBV/lumina-crafts"><img src="https://img.shields.io/badge/Lumina_Crafts-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
-<a href="https://github.com/AryanBV/hs-code-classifier"><img src="https://img.shields.io/badge/HS_Code_Classifier-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
-<a href="https://github.com/AryanBV/drone-controller-app"><img src="https://img.shields.io/badge/Drone_Controller-0A0A0A?style=flat&logo=github&logoColor=F5A623&labelColor=0A0A0A" /></a>
-
-</div>
-
----
-
 ## GitHub Stats
 
 <div align="center">
@@ -121,15 +109,12 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 <!-- STATS — self-hosted composite (header + languages) -->
 <img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, contributions, top languages" />
 
-<br/>
-
-<!-- LINES OF CODE — custom action aggregates bytes across all owned public repos -->
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAryanBV%2FAryanBV%2Foutput%2Floc.json" alt="Lines of code (estimated)" />
-
 <br/><br/>
 
-<!-- STREAK -->
-<img src="https://streak-stats.demolab.com/?user=AryanBV&hide_border=true&background=0A0A0A&stroke=171513&ring=F5A623&fire=FF6B35&currStreakLabel=F5A623&currStreakNum=F5F5F5&sideLabels=F5A623&sideNums=F5F5F5&dates=A09888" alt="GitHub Streak" />
+<!-- LINES OF CODE — cloc-counted across all owned public repos, vendor/build excluded -->
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAryanBV%2FAryanBV%2Foutput%2Floc.json" alt="Total lines of code across owned public repos" />
+&nbsp;
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAryanBV%2FAryanBV%2Foutput%2Floc-top-language.json" alt="Top language by lines of code" />
 
 </div>
 
@@ -166,7 +151,7 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 <div align="center">
 
-**Open to remote and hybrid roles — freelance, contract, and full-time**
+**Open to roles where I can solve hard technical problems** — remote, hybrid, or Bengaluru. Freelance, contract, or full-time.
 
 <br/>
 
