@@ -2,7 +2,7 @@ name: Generate LOC Stats
 
 on:
   schedule:
-    - cron: "30 */6 * * *"   # every 6 hours, offset 30 min from snake
+    - cron: "30 */6 * * *"
   push:
     branches: [main]
   workflow_dispatch:
@@ -13,88 +13,130 @@ permissions:
 jobs:
   loc:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - name: Compute total LOC across owned public repos
+      - name: Install cloc
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq cloc
+
+      - name: Compute exact LOC across all owned non-fork repos
         uses: actions/github-script@v7
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           github-token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
+            const { execSync } = require('child_process');
             const fs = require('fs');
             const path = require('path');
             const user = 'AryanBV';
 
-            // List all owned non-fork public repos (paginated)
-            const repos = await github.paginate(
-              github.rest.repos.listForUser,
-              { username: user, per_page: 100, type: 'owner' }
-            );
+            // List owned non-fork non-archived public repos
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username: user, per_page: 100, type: 'owner'
+            });
             const owned = repos.filter(r => !r.fork && !r.archived);
             console.log(`Found ${owned.length} owned non-fork repos`);
 
-            // Aggregate bytes per language via GitHub Languages API
-            const totals = {};
+            // Clone each shallow + token-auth (for private if any later)
+            const tmpDir = '/tmp/loc-workspace';
+            execSync(`mkdir -p ${tmpDir}`);
+            const cloned = [];
             for (const repo of owned) {
+              const url = repo.clone_url.replace(
+                'https://',
+                `https://x-access-token:${process.env.GH_TOKEN}@`
+              );
+              const target = path.join(tmpDir, repo.name);
               try {
-                const { data: langs } = await github.rest.repos.listLanguages({
-                  owner: user, repo: repo.name,
-                });
-                for (const [lang, bytes] of Object.entries(langs)) {
-                  totals[lang] = (totals[lang] || 0) + bytes;
-                }
+                execSync(
+                  `git clone --depth 1 --no-tags --quiet "${url}" "${target}"`,
+                  { stdio: ['ignore', 'ignore', 'pipe'] }
+                );
+                cloned.push(repo.name);
               } catch (e) {
-                console.log(`Skipped ${repo.name}: ${e.message}`);
+                console.log(`Skipped ${repo.name}: clone failed`);
               }
             }
+            console.log(`Cloned ${cloned.length}/${owned.length} repos`);
 
-            // Filter out non-code "languages" that GitHub counts but inflate LOC
-            const filterOut = new Set([
-              'HTML', 'CSS', 'SCSS', 'Less', 'Sass',
-              'Jupyter Notebook', 'Dockerfile', 'Makefile',
-              'Shell', 'Batchfile', 'PowerShell',
-              'TeX', 'Roff', 'Smarty',
-            ]);
-            const codeBytes = Object.entries(totals)
-              .filter(([lang]) => !filterOut.has(lang))
-              .reduce((sum, [, b]) => sum + b, 0);
+            // Run cloc on the workspace.
+            // Exclude common vendor/build/cache dirs + lock files.
+            const excludeDirs = [
+              'node_modules', 'dist', 'build', 'vendor', 'coverage',
+              '.next', '__pycache__', 'target', 'bin', 'obj',
+              'venv', 'env', '.venv', '.nuxt', '.cache', '.docusaurus',
+              '.vercel', '.firebase', 'site-packages', 'out',
+            ].join(',');
 
-            // Estimate lines: ~30 bytes/line is a reasonable industry rough avg
-            // (Python: ~25, TS/JS: ~35-45, C++/Java: ~30-40 — 30 splits the diff)
-            const estimatedLoc = Math.floor(codeBytes / 30);
-            const formatted = estimatedLoc.toLocaleString('en-US');
+            const clocOutput = execSync(
+              `cloc --json --quiet --exclude-dir=${excludeDirs} ` +
+              `--not-match-f="(\\.min\\.|\\.bundle\\.|-lock\\.json$|yarn\\.lock$|pnpm-lock\\.yaml$|poetry\\.lock$|Pipfile\\.lock$)" ` +
+              `--timeout=30 ${tmpDir}`,
+              { encoding: 'utf-8', maxBuffer: 50 * 1024 * 1024 }
+            );
+            const cloc = JSON.parse(clocOutput);
+
+            // Aggregate per-language totals (cloc output has 'header', 'SUM',
+            // and per-language entries like 'Python', 'TypeScript')
+            const langs = {};
+            for (const [key, val] of Object.entries(cloc)) {
+              if (key === 'header' || key === 'SUM') continue;
+              if (typeof val !== 'object' || !val.code) continue;
+              langs[key] = val.code;
+            }
+
+            const total = Object.values(langs).reduce((a, b) => a + b, 0);
+            const sortedLangs = Object.entries(langs)
+              .sort((a, b) => b[1] - a[1]);
+            const [topLang, topLoc] = sortedLangs[0] || ['—', 0];
+            const topPct = total > 0
+              ? ((topLoc / total) * 100).toFixed(1)
+              : '0.0';
+            const fmt = n => n.toLocaleString('en-US');
 
             const dist = path.join(process.env.GITHUB_WORKSPACE, 'dist');
             fs.mkdirSync(dist, { recursive: true });
 
-            // Shields.io endpoint badge JSON
-            fs.writeFileSync(
-              path.join(dist, 'loc.json'),
-              JSON.stringify({
-                schemaVersion: 1,
-                label: 'lines of code',
-                message: formatted,
-                color: 'F5A623',
-                labelColor: '0A0A0A',
-                style: 'for-the-badge',
-              })
-            );
+            // Total LOC badge
+            fs.writeFileSync(path.join(dist, 'loc.json'), JSON.stringify({
+              schemaVersion: 1,
+              label: 'lines of code',
+              message: fmt(total),
+              color: 'F5A623',
+              labelColor: '0A0A0A',
+              style: 'for-the-badge',
+            }));
 
-            // Debug breakdown
-            const sortedLangs = Object.entries(totals).sort((a, b) => b[1] - a[1]);
-            fs.writeFileSync(
-              path.join(dist, 'loc-breakdown.json'),
-              JSON.stringify({
-                user,
-                generated_at: new Date().toISOString(),
-                owned_repos: owned.length,
-                total_bytes_all: Object.values(totals).reduce((a, b) => a + b, 0),
-                code_bytes: codeBytes,
-                estimated_loc: estimatedLoc,
-                by_language: Object.fromEntries(sortedLangs),
-              }, null, 2)
-            );
+            // Top language badge
+            fs.writeFileSync(path.join(dist, 'loc-top-language.json'), JSON.stringify({
+              schemaVersion: 1,
+              label: `top: ${topLang.toLowerCase()}`,
+              message: `${fmt(topLoc)} (${topPct}%)`,
+              color: 'F5A623',
+              labelColor: '0A0A0A',
+              style: 'for-the-badge',
+            }));
 
-            console.log(`OK: ${owned.length} repos, ${codeBytes.toLocaleString()} code bytes, ~${formatted} lines`);
+            // Full breakdown for transparency / debugging
+            fs.writeFileSync(path.join(dist, 'loc-breakdown.json'), JSON.stringify({
+              user,
+              generated_at: new Date().toISOString(),
+              method: 'cloc on shallow-cloned repos, vendor/build dirs excluded',
+              owned_repos: owned.length,
+              cloned_repos: cloned.length,
+              total_loc: total,
+              top_language: topLang,
+              top_loc: topLoc,
+              top_percentage: parseFloat(topPct),
+              by_language: Object.fromEntries(sortedLangs),
+              cloc_header: cloc.header,
+              cloc_sum: cloc.SUM,
+            }, null, 2));
+
+            console.log(`Total: ${fmt(total)} lines | Top: ${topLang} ${fmt(topLoc)} (${topPct}%)`);
+
+            // Cleanup
+            execSync(`rm -rf ${tmpDir}`);
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
