@@ -34,7 +34,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
-          plugin_languages_details: percentage, lines
+          plugin_languages_details: percentage
           plugin_languages_sections: most-used
           plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell, tex
           plugin_languages_aliases: |
@@ -43,9 +43,9 @@ jobs:
             javascript: JavaScript
 
           plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
+          plugin_lines_repositories_limit: 0
+          plugin_lines_delay: 0
 
           extras_css: |
             /* canvas */
