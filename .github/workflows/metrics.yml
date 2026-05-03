@@ -62,6 +62,10 @@ jobs:
             /* hide the "Followed by N users" field — vanity metric */
             div.field:has(svg path[d^="M5.5 3.5a2 2"]) { display: none !important; }
 
+            /* hide the "Contributed to N repositories" field — count is
+               misleading (includes forks/external repos, not owned-only) */
+            div.field:has(svg path[d^="M1 2.5A2.5 2.5 0 013.5 0"]) { display: none !important; }
+
             /* hide redundant section subheaders — data is self-explanatory */
             h2.field { display: none !important; }
 
