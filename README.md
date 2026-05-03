@@ -117,7 +117,21 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 ## GitHub Stats
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, programming languages, contribution calendar (3D isometric)" />
+
+<!-- STATS + TOP LANGUAGES SIDE BY SIDE -->
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&icon_color=F5A623&ring_color=F5A623&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBV&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&langs_count=8" alt="Top Languages" />
+
+<br/>
+
+<!-- STREAK -->
+<img src="https://streak-stats.demolab.com/?user=AryanBV&hide_border=true&background=0A0A0A&stroke=171513&ring=F5A623&fire=FF6B35&currStreakLabel=F5A623&currStreakNum=F5F5F5&sideLabels=F5A623&sideNums=F5F5F5&dates=A09888" alt="GitHub Streak" />
+
+<br/><br/>
+
+<!-- TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=AryanBV&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
+
 </div>
 
 ---
