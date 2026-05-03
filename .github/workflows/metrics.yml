@@ -28,8 +28,7 @@ jobs:
           committer_message: "chore: update metrics [skip ci]"
 
           base: header
-          base_indepth: yes
-          config_order: base.header, languages, lines
+          config_order: base.header, languages
           config_timezone: Asia/Kolkata
 
           plugin_languages: yes
@@ -42,10 +41,6 @@ jobs:
             python: Python
             typescript: TypeScript
             javascript: JavaScript
-
-          plugin_lines: yes
-          plugin_lines_sections: base, repositories
-          plugin_lines_repositories_limit: 4
 
           extras_css: |
             /* canvas */
