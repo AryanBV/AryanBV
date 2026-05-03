@@ -43,9 +43,8 @@ jobs:
             javascript: JavaScript
 
           plugin_lines: yes
-          plugin_lines_sections: base
-          plugin_lines_repositories_limit: 0
-          plugin_lines_delay: 0
+          plugin_lines_sections: base, repositories
+          plugin_lines_repositories_limit: 4
 
           extras_css: |
             /* canvas */
