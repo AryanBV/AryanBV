@@ -118,18 +118,8 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 <div align="center">
 
-<!-- STATS OVERVIEW + LANGUAGES (self-hosted composite, generated daily by metrics.yml) -->
-<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, 3D contribution calendar, top languages" />
-
-<br/>
-
-<!-- STREAK -->
-<img src="https://streak-stats.demolab.com/?user=AryanBV&hide_border=true&background=0A0A0A&stroke=171513&ring=F5A623&fire=FF6B35&currStreakLabel=F5A623&currStreakNum=F5F5F5&sideLabels=F5A623&sideNums=F5F5F5&dates=A09888" alt="GitHub Streak" />
-
-<br/><br/>
-
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=AryanBV&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
+<!-- STATS — self-hosted composite (header + languages + lines of code) -->
+<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, top languages, lines of code" />
 
 </div>
 
