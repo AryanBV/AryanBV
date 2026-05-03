@@ -114,7 +114,6 @@ h2.field { display: none !important; }
                                 TSX
                             </div>
                             <small>
-                                <div>746 lines</div>
                                 <div>54.11%</div>
                             </small>
                         </div>
@@ -126,7 +125,6 @@ h2.field { display: none !important; }
                                 TypeScript
                             </div>
                             <small>
-                                <div>126 lines</div>
                                 <div>14.51%</div>
                             </small>
                         </div>
@@ -138,7 +136,6 @@ h2.field { display: none !important; }
                                 JavaScript
                             </div>
                             <small>
-                                <div>17 lines</div>
                                 <div>1.6%</div>
                             </small>
                         </div>
@@ -152,7 +149,6 @@ h2.field { display: none !important; }
                                 Java
                             </div>
                             <small>
-                                <div>343 lines</div>
                                 <div>21.78%</div>
                             </small>
                         </div>
@@ -164,7 +160,6 @@ h2.field { display: none !important; }
                                 Jupyter Notebook
                             </div>
                             <small>
-                                <div>159 lines</div>
                                 <div>8%</div>
                             </small>
                         </div>
