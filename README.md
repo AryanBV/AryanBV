@@ -118,8 +118,13 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 <div align="center">
 
-<!-- STATS — self-hosted composite (header + languages + lines of code) -->
-<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, top languages, lines of code" />
+<!-- STATS — self-hosted composite (header + lines of code) -->
+<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, lines of code" />
+
+<br/>
+
+<!-- STREAK -->
+<img src="https://streak-stats.demolab.com/?user=AryanBV&hide_border=true&background=0A0A0A&stroke=171513&ring=F5A623&fire=FF6B35&currStreakLabel=F5A623&currStreakNum=F5F5F5&sideLabels=F5A623&sideNums=F5F5F5&dates=A09888" alt="GitHub Streak" />
 
 </div>
 
