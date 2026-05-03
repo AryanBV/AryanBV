@@ -25,7 +25,7 @@ I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade syst
 
 When existing PDF libraries silently destroyed fonts and layout, I rebuilt the fix from the content-stream level up. Same approach everywhere: find the real problem, go deep enough to fix it, ship with discipline.
 
-- **Other Work:** Lumina Crafts · HS Code Classifier · Drone Controller · Smart Med · AJSP Manager
+- **Other Work:** AJSP Manager · Lumina Crafts · HS Code Classifier · Smart Med · Drone Controller
 - **Location:** Bengaluru, India
 - **Certified:** Microsoft Azure AI Fundamentals (AI-900)
 - **Education:** B.Tech in AI & ML — M S Ramaiah University of Applied Sciences
@@ -108,19 +108,14 @@ When existing PDF libraries silently destroyed fonts and layout, I rebuilt the f
 
 <div align="center">
 
-<!-- STATS — self-hosted composite (header + contribution heatmap) -->
-<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, contribution heatmap" />
-
-<br/><br/>
-
-<!-- MOST USED LANGUAGES — accurate cloc-based count, replaces unreliable plugin_languages -->
-<img src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/languages.svg" alt="Most used languages by lines of code (counted by cloc across all owned repos)" />
+<!-- MOST USED LANGUAGES — accurate cloc-based count -->
+<img width="80%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/languages.svg" alt="Most used languages by lines of code (counted by cloc across all owned repos)" />
 
 <br/><br/>
 
 <!-- LINES OF CODE — cloc-counted across all owned public repos -->
 <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAryanBV%2FAryanBV%2Foutput%2Floc.json" alt="Total lines of code across owned public repos" />
-&nbsp;
+&nbsp;&nbsp;
 <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAryanBV%2FAryanBV%2Foutput%2Floc-top-language.json" alt="Top language by lines of code" />
 
 </div>
