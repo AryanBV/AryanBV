@@ -118,9 +118,8 @@ Whether it's document processing infrastructure or full-stack web platforms, the
 
 <div align="center">
 
-<!-- STATS + TOP LANGUAGES SIDE BY SIDE -->
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=AryanBV&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&icon_color=F5A623&ring_color=F5A623&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanBV&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=F5A623&text_color=F5F5F5&langs_count=8" alt="Top Languages" />
+<!-- STATS OVERVIEW + LANGUAGES (self-hosted composite, generated daily by metrics.yml) -->
+<img width="100%" src="https://raw.githubusercontent.com/AryanBV/AryanBV/output/metrics.svg" alt="GitHub stats — joined date, total contributions, repository count, 3D contribution calendar, top languages" />
 
 <br/>
 
