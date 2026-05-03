@@ -28,19 +28,13 @@ jobs:
           committer_message: "chore: update metrics [skip ci]"
 
           base: header
-          config_order: base.header, languages
+          config_order: base.header
           config_timezone: Asia/Kolkata
-
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_details: percentage
-          plugin_languages_sections: most-used
-          plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell, tex
-          plugin_languages_aliases: |
-            python: Python
-            typescript: TypeScript
-            javascript: JavaScript
+          # plugin_languages removed: it analyzed recent commit diffs which
+          # produces misleading numbers (e.g., Java 22% from a single
+          # DSA-practice push when career-total Java is <1%). The LOC
+          # badges below the metrics SVG are the single source of truth
+          # for language data — counted by cloc across all owned repos.
 
           extras_css: |
             /* canvas */
