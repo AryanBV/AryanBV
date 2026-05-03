@@ -28,6 +28,7 @@ jobs:
           committer_message: "chore: update metrics [skip ci]"
 
           base: header
+          base_indepth: yes
           config_order: base.header, languages, lines
           config_timezone: Asia/Kolkata
 
