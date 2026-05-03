@@ -25,7 +25,7 @@ I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade syst
 
 When existing PDF libraries silently destroyed fonts and layout, I rebuilt the fix from the content-stream level up. Same approach everywhere: find the real problem, go deep enough to fix it, ship with discipline.
 
-- **Other Work:** Lumina Crafts · HS Code Classifier · Drone Controller · Smart Med
+- **Other Work:** Lumina Crafts · HS Code Classifier · Drone Controller · Smart Med · AJSP Manager
 - **Location:** Bengaluru, India
 - **Certified:** Microsoft Azure AI Fundamentals (AI-900)
 - **Education:** B.Tech in AI & ML — M S Ramaiah University of Applied Sciences
