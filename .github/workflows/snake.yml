@@ -3,6 +3,10 @@ name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 */6 * * *"   # runs every 6 hours
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/snake.yml'
   workflow_dispatch:          # allows manual trigger from Actions tab
 
 permissions:
