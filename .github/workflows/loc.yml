@@ -76,13 +76,33 @@ jobs:
             );
             const cloc = JSON.parse(clocOutput);
 
-            // Aggregate per-language totals (cloc output has 'header', 'SUM',
-            // and per-language entries like 'Python', 'TypeScript')
-            const langs = {};
+            // Filter out non-code formats — "lines of code" should mean
+            // actual programming languages, not data/config/markup.
+            // JSON especially inflates (model weights, MCP tool catalogs,
+            // package-lock variants, test fixtures).
+            const nonCodeLangs = new Set([
+              // Data & serialization
+              'JSON', 'YAML', 'TOML', 'INI', 'Properties', 'CSV', 'TSV',
+              // Docs & prose
+              'Markdown', 'Text', 'Plain Text', 'AsciiDoc', 'reStructuredText',
+              // Markup
+              'XML', 'SVG', 'HTML', 'XHTML',
+              // Styling (markup, not algorithmic code)
+              'CSS', 'SCSS', 'Sass', 'Less', 'Stylus',
+              // Build / infra
+              'Maven', 'Gradle', 'CMake', 'make', 'Makefile',
+              'Dockerfile', 'DOS Batch', 'MSBuild script',
+              // Mixed / notebooks
+              'Jupyter Notebook',
+            ]);
+
+            const langs = {};        // programming-language LOC only
+            const allLangs = {};     // everything for the breakdown
             for (const [key, val] of Object.entries(cloc)) {
               if (key === 'header' || key === 'SUM') continue;
               if (typeof val !== 'object' || !val.code) continue;
-              langs[key] = val.code;
+              allLangs[key] = val.code;
+              if (!nonCodeLangs.has(key)) langs[key] = val.code;
             }
 
             const total = Object.values(langs).reduce((a, b) => a + b, 0);
@@ -121,7 +141,7 @@ jobs:
             fs.writeFileSync(path.join(dist, 'loc-breakdown.json'), JSON.stringify({
               user,
               generated_at: new Date().toISOString(),
-              method: 'cloc on shallow-cloned repos, vendor/build dirs excluded',
+              method: 'cloc on shallow-cloned repos; programming languages only (data/config/markup excluded)',
               owned_repos: owned.length,
               cloned_repos: cloned.length,
               total_loc: total,
@@ -129,6 +149,7 @@ jobs:
               top_loc: topLoc,
               top_percentage: parseFloat(topPct),
               by_language: Object.fromEntries(sortedLangs),
+              all_languages_including_non_code: allLangs,
               cloc_header: cloc.header,
               cloc_sum: cloc.SUM,
             }, null, 2));
