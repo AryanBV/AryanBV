@@ -1,0 +1,29 @@
+{
+  "user": "AryanBV",
+  "generated_at": "2026-05-03T05:18:04.670Z",
+  "owned_repos": 33,
+  "total_bytes_all": 20514939,
+  "code_bytes": 20145538,
+  "estimated_loc": 671517,
+  "by_language": {
+    "Python": 15781969,
+    "TypeScript": 3405805,
+    "JavaScript": 707545,
+    "CSS": 212107,
+    "C": 189524,
+    "HTML": 123029,
+    "PowerShell": 25697,
+    "Cython": 24792,
+    "PLpgSQL": 20975,
+    "Java": 9582,
+    "Jupyter Notebook": 2928,
+    "Kotlin": 2530,
+    "Dockerfile": 2067,
+    "Shell": 1834,
+    "Ruby": 1553,
+    "Batchfile": 1361,
+    "Swift": 1238,
+    "Makefile": 378,
+    "Procfile": 25
+  }
+}
