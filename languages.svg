@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 278" width="720" role="img" aria-label="Top languages by lines of code">
   <rect width="720" height="278" fill="#0A0A0A" rx="10"/>
   <text x="24" y="36" fill="#F5A623" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="18" font-weight="600">Most used languages</text>
-  <text x="24" y="58" fill="#A09888" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">139,223 lines across 33 owned public repos &#183; counted by cloc</text>
+  <text x="24" y="58" fill="#A09888" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">135,891 lines across 33 owned public repos &#183; counted by cloc</text>
   <text x="24" y="95" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">TypeScript</text>
-  <rect x="170" y="82" width="228.9" height="24" fill="#F5A623" rx="4"/>
-  <text x="564" y="95" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">60.2% &#183; 83,871</text>
+  <rect x="170" y="82" width="223.6" height="24" fill="#F5A623" rx="4"/>
+  <text x="564" y="95" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">58.8% &#183; 79,957</text>
   <text x="24" y="131" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">Python</text>
-  <rect x="170" y="118" width="102.9" height="24" fill="#FF6B35" rx="4"/>
-  <text x="564" y="131" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">27.1% &#183; 37,704</text>
+  <rect x="170" y="118" width="107.1" height="24" fill="#FF6B35" rx="4"/>
+  <text x="564" y="131" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">28.2% &#183; 38,286</text>
   <text x="24" y="167" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">JavaScript</text>
-  <rect x="170" y="154" width="42.6" height="24" fill="#B27512" rx="4"/>
-  <text x="564" y="167" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">11.2% &#183; 15,613</text>
+  <rect x="170" y="154" width="43.7" height="24" fill="#B27512" rx="4"/>
+  <text x="564" y="167" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">11.5% &#183; 15,613</text>
   <text x="24" y="203" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">SQL</text>
   <rect x="170" y="190" width="4.0" height="24" fill="#8B5A1F" rx="4"/>
-  <text x="564" y="203" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">0.7% &#183; 1,034</text>
+  <text x="564" y="203" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">0.8% &#183; 1,034</text>
   <text x="24" y="239" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">JSX</text>
   <rect x="170" y="226" width="4.0" height="24" fill="#5A3F1F" rx="4"/>
   <text x="564" y="239" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">0.3% &#183; 459</text>
