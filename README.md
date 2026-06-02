@@ -133,7 +133,7 @@ A full-stack e-commerce platform for handcrafted candles with <strong>live Razor
 </tr>
 <tr>
 <td width="50%" valign="top">
-<strong>HS Code Classifier</strong> <sub>(TradeCode)</sub> &nbsp;·&nbsp; <a href="https://hs-code-classifier.vercel.app">Live</a> · <a href="https://github.com/AryanBV/hs-code-classifier">Code</a>
+<strong>HS Code Classifier</strong> &nbsp;·&nbsp; <a href="https://hs-code-classifier.vercel.app">Live</a> · <a href="https://github.com/AryanBV/hs-code-classifier">Code</a>
 <br/><br/>
 An <strong>AI tool that classifies products to the correct Indian HS export codes</strong> — built for the realities of SME export paperwork, where a wrong code means customs delays and penalties.
 <br/><br/>
