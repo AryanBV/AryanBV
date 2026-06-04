@@ -1,15 +1,15 @@
 {
   "user": "AryanBV",
-  "generated_at": "2026-06-04T16:00:24.861Z",
+  "generated_at": "2026-06-04T20:33:01.629Z",
   "method": "cloc on shallow-cloned repos; programming languages only (data/config/markup excluded)",
   "owned_repos": 33,
   "cloned_repos": 33,
-  "total_loc": 183409,
+  "total_loc": 190940,
   "top_language": "TypeScript",
-  "top_loc": 102810,
-  "top_percentage": 56.1,
+  "top_loc": 110341,
+  "top_percentage": 57.8,
   "by_language": {
-    "TypeScript": 102810,
+    "TypeScript": 110341,
     "Python": 39249,
     "SQL": 22808,
     "JavaScript": 17541,
@@ -20,13 +20,13 @@
     "Swift": 39
   },
   "all_languages_including_non_code": {
-    "JSON": 1055379,
-    "TypeScript": 102810,
-    "Markdown": 39955,
+    "JSON": 1145112,
+    "TypeScript": 110341,
+    "Markdown": 40382,
     "Python": 39249,
     "SQL": 22808,
     "JavaScript": 17541,
-    "CSS": 9268,
+    "CSS": 9349,
     "HTML": 2472,
     "Text": 1587,
     "YAML": 802,
@@ -50,16 +50,16 @@
   "cloc_header": {
     "cloc_url": "github.com/AlDanial/cloc",
     "cloc_version": "1.98",
-    "elapsed_seconds": 3.79411911964417,
-    "n_files": 2041,
-    "n_lines": 1366433,
-    "files_per_second": 537.937775709956,
-    "lines_per_second": 360144.992002294
+    "elapsed_seconds": 3.55774211883545,
+    "n_files": 2076,
+    "n_lines": 1468386,
+    "files_per_second": 583.516154532171,
+    "lines_per_second": 412729.745707551
   },
   "cloc_sum": {
-    "blank": 37784,
-    "comment": 34831,
-    "code": 1293818,
-    "nFiles": 2041
+    "blank": 38697,
+    "comment": 38099,
+    "code": 1391590,
+    "nFiles": 2076
   }
 }
