@@ -21,7 +21,7 @@
 
 > _"Find the real problem, build what actually fixes it."_
 
-I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade systems end to end. My PDF library `pdf-edit-engine` — **946 tests** (631 unit + 315 invariant probes), **88% coverage**, validated at 100% character agreement across Chrome, Google Docs, reportlab & pikepdf output — is published on PyPI, and the two MCP servers I built around it expose **60 tools** to AI agents.
+I'm an **AI/ML Engineer & Full-Stack Developer** who ships production-grade systems end to end. My PDF library `pdf-edit-engine` — **1,215 tests** (801 unit + 414 invariant probes), **88% coverage**, validated at 100% character agreement across Chrome, Google Docs, reportlab & pikepdf output — is published on PyPI, and the two MCP servers I built around it expose **60 tools** to AI agents.
 
 When existing PDF libraries silently destroyed fonts and layout, I rebuilt the fix from the content-stream level up. Same approach everywhere: find the real problem, go deep enough to fix it, ship with discipline.
 
@@ -68,9 +68,9 @@ When existing PDF libraries silently destroyed fonts and layout, I rebuilt the f
 <br/><br/>
 <em>Format-preserving PDF text editing<br/>at the content-stream level</em>
 <br/><br/>
-<strong>946 tests</strong>
+<strong>1,215 tests</strong>
 <br/>
-<sub>631 unit + 315 invariant probes · 88% coverage<br/>edits encrypted, CJK &amp; CFF PDFs</sub>
+<sub>801 unit + 414 invariant probes · 88% coverage<br/>edits encrypted, CJK &amp; CFF PDFs</sub>
 <br/><br/>
 </td>
 <td width="33%" valign="top" align="center">
