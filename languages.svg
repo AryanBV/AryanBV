@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 278" width="720" role="img" aria-label="Top languages by lines of code">
   <rect width="720" height="278" fill="#0A0A0A" rx="10"/>
   <text x="24" y="36" fill="#F5A623" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="18" font-weight="600">Most used languages</text>
-  <text x="24" y="58" fill="#A09888" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">192,184 lines across 33 owned public repos &#183; counted by cloc</text>
+  <text x="24" y="58" fill="#A09888" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">192,183 lines across 33 owned public repos &#183; counted by cloc</text>
   <text x="24" y="95" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">TypeScript</text>
   <rect x="170" y="82" width="220.6" height="24" fill="#F5A623" rx="4"/>
-  <text x="564" y="95" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">58.1% &#183; 111,585</text>
+  <text x="564" y="95" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">58.1% &#183; 111,584</text>
   <text x="24" y="131" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">Python</text>
   <rect x="170" y="118" width="77.6" height="24" fill="#FF6B35" rx="4"/>
   <text x="564" y="131" fill="#F5F5F5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13">20.4% &#183; 39,249</text>
