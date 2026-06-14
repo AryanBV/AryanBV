@@ -126,7 +126,7 @@ A business-management system <strong>running in production</strong> for an autom
 <td width="50%" valign="top">
 <strong>Lumina Crafts</strong> &nbsp;·&nbsp; <a href="https://lumina-crafts.vercel.app">Live</a> · <a href="https://github.com/AryanBV/lumina-crafts">Code</a>
 <br/><br/>
-A full-stack e-commerce platform for handcrafted candles with <strong>live Razorpay payments</strong> (UPI, cards, net-banking, wallets, plus COD), a category-filtered catalog, realtime cart, and guest checkout — shipped on Vercel with sub-2s loads.
+A full-stack e-commerce platform for handcrafted candles with a full <strong>Razorpay checkout</strong> (UPI, cards, net-banking, wallets, plus COD — integrated in test mode while the client prepares their product line), a category-filtered catalog, realtime cart, and guest checkout — shipped on Vercel with sub-2s loads.
 <br/><br/>
 <sub><strong>Next.js 14 · TypeScript · Supabase · Razorpay · Zustand</strong></sub>
 </td>
