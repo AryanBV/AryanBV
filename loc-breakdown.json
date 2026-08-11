@@ -1,6 +1,6 @@
 {
   "user": "AryanBV",
-  "generated_at": "2026-08-11T02:35:57.052Z",
+  "generated_at": "2026-08-11T07:46:28.020Z",
   "method": "cloc on shallow-cloned repos; programming languages only (data/config/markup excluded)",
   "owned_repos": 35,
   "cloned_repos": 35,
@@ -50,11 +50,11 @@
   "cloc_header": {
     "cloc_url": "github.com/AlDanial/cloc",
     "cloc_version": "1.98",
-    "elapsed_seconds": 3.76674103736877,
+    "elapsed_seconds": 3.82663798332214,
     "n_files": 2101,
     "n_lines": 1472014,
-    "files_per_second": 557.776597636145,
-    "lines_per_second": 390792.461015123
+    "files_per_second": 549.045927301435,
+    "lines_per_second": 384675.531475819
   },
   "cloc_sum": {
     "blank": 39095,
