@@ -1,10 +1,10 @@
 {
   "user": "AryanBV",
-  "generated_at": "2026-10-28T13:23:11.706Z",
+  "generated_at": "2026-10-28T22:46:03.665Z",
   "method": "cloc on shallow-cloned repos; programming languages only (data/config/markup excluded)",
   "owned_repos": 35,
   "cloned_repos": 35,
-  "total_loc": 193999,
+  "total_loc": 194182,
   "top_language": "TypeScript",
   "top_loc": 111582,
   "top_percentage": 57.5,
@@ -15,6 +15,7 @@
     "JavaScript": 17541,
     "JSX": 459,
     "Java": 309,
+    "Prisma Schema": 183,
     "Bourne Shell": 151,
     "Kotlin": 43,
     "Swift": 39
@@ -35,6 +36,7 @@
     "XML": 275,
     "SVG": 228,
     "TOML": 188,
+    "Prisma Schema": 183,
     "Bourne Shell": 151,
     "Gradle": 74,
     "DOS Batch": 71,
@@ -49,17 +51,17 @@
   },
   "cloc_header": {
     "cloc_url": "github.com/AlDanial/cloc",
-    "cloc_version": "1.98",
-    "elapsed_seconds": 3.83587098121643,
-    "n_files": 2101,
-    "n_lines": 1472014,
-    "files_per_second": 547.724365675545,
-    "lines_per_second": 383749.611811291
+    "cloc_version": "2.06",
+    "elapsed_seconds": 3.0945839881897,
+    "n_files": 2102,
+    "n_lines": 1472267,
+    "files_per_second": 679.25123636074,
+    "lines_per_second": 475756.032351626
   },
   "cloc_sum": {
-    "blank": 39095,
-    "comment": 38594,
-    "code": 1394325,
-    "nFiles": 2101
+    "blank": 39132,
+    "comment": 38627,
+    "code": 1394508,
+    "nFiles": 2102
   }
 }
